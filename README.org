@@ -1,6 +1,6 @@
 * Prompts
 
-This is a free and open-source curation of prompts for GPT-3.
+This is a free and open-source curation of prompts for OpenAI's GPT-3.
 
 | License |
 |---------|
