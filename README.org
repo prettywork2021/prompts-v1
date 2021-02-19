@@ -1,0 +1,7 @@
+* Prompts
+
+This is an open-source curation of prompts for GPT-3.
+
+| License |
+|---------|
+| *GPL-3* |
