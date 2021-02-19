@@ -1,7 +1,22 @@
 * Prompts
-
 This is a free and open-source curation of prompts for OpenAI's GPT-3.
 
 | License |
 |---------|
 | *GPL-3* |
+
+** The =.prompt= file format
+This is the format I have used to organise
+these prompts. It is =yaml= with a schema,
+which is not yet defined.
+
+This file is as good as any currently as an example of the schema.
+
+[[./prompts/obfuscate-language.prompt]]
+
+If you are looking for a tool which can load
+and make use of these =.prompt= files
+directly, you may use the =GPL-3= mode for
+emacs that was used to generate them.
+
+https://github.com/mullikine/prompt-engineer-mode
