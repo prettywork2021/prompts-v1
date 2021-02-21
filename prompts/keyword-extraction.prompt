@@ -1,8 +1,8 @@
 title: "keyword extraction"
 prompt: |+
-Text: <1>
-
-Keywords:
+    Text: <1>
+    
+    Keywords:
 engine: "davinci"
 temperature: 0.3
 max-tokens: 60
