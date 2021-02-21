@@ -3,3 +3,4 @@
 - https://www.notion.so/OpenAI-API-Community-Examples-ce088785e541498698c1895798e67664
 - https://github.com/maraoz/gpt-scrolls/tree/master/scrolls/scrolls
 - http://gptprompts.wikidot.com/
+- https://beta.openai.com/examples/default-keywords
