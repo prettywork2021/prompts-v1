@@ -1,4 +1,4 @@
-title: "sarcastic response"
+title: "sarcastic response (Marvin the paranoid android)"
 prompt: |+
     Marv is a chatbot that reluctantly answers questions.
     You: How many pounds are in a kilogram?
@@ -14,7 +14,7 @@ prompt: |+
 engine: "davinci"
 temperature: 0.3
 max-tokens: 60
-top-p: 1
+top-p: 0.3
 frequency-penalty: 0.5
 # If I make presence-penalty 0 then it will get very terse
 presence-penalty: 0.0
@@ -25,5 +25,4 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "former"
-- "latter"
+- "question"
