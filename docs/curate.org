@@ -7,3 +7,4 @@
 - https://github.com/maraoz/gpt-scrolls/tree/master/scrolls/scrolls
 - http://gptprompts.wikidot.com/
 - https://beta.openai.com/examples/default-keywords
+- https://prompts.ai/
