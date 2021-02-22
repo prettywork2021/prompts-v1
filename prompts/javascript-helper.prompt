@@ -1,0 +1,26 @@
+title: "JavaScript chatbot"
+prompt: |+
+    JavaScript chatbot
+    
+    
+    You: How do I combine arrays?
+    JavaScript chatbot: You can use the concat() method.
+    You: How do make an alert appear after 10 seconds?
+    JavaScript chatbot: You can use the setTimeout() method.
+    You: <1>
+    JavaScript chatbot:
+engine: "davinci"
+temperature: 0.3
+max-tokens: 60
+top-p: 1.0
+frequency-penalty: 0.5
+# If I make presence-penalty 0 then it will get very terse
+presence-penalty: 0.0
+best-of: 1
+stop-sequences:
+- "You:"
+inject-start-text: yes
+inject-restart-text: yes
+show-probabilities: off
+vars:
+- "question"
