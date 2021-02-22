@@ -18,9 +18,9 @@ This file is as good as any currently as an example of the schema.
   title: "meeting bullet points to summary"
   prompt: |+
       Convert my short hand into a first-hand account of the meeting:
-      
+
       <1>
-      
+
       Summary:
   engine: "davinci-instruct-beta"
   temperature: 0.7
@@ -34,6 +34,8 @@ This file is as good as any currently as an example of the schema.
   inject-start-text: yes
   inject-restart-text: yes
   show-probabilities: off
+  # A flag just for convenience-sake to find prompts which are designed to be chatbots
+  conversation-mode: no
   vars:
   - "notes"
   examples:
