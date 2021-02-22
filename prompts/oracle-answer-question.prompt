@@ -30,5 +30,6 @@ stop-sequences:
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
+conversation-mode: no
 vars:
 - "question about anything"
