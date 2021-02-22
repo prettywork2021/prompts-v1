@@ -31,5 +31,8 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 conversation-mode: off
+# Keep stitching together until reaching this limit
+# This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
+stitch-max: 5
 vars:
 - "question about anything"
