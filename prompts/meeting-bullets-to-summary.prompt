@@ -1,10 +1,4 @@
 title: "meeting bullet points to summary"
-example: |+
-    Tom: Profits up 50%
-    Jane: New servers are online
-    Kjel: Need more time to fix software
-    Jane: Happy to help
-    Parkman: Beta testing almost done
 prompt: |+
     Convert my short hand into a first-hand account of the meeting:
     
@@ -25,3 +19,10 @@ inject-restart-text: yes
 show-probabilities: off
 vars:
 - "former"
+examples:
+- |+
+    Tom: Profits up 50%
+    Jane: New servers are online
+    Kjel: Need more time to fix software
+    Jane: Happy to help
+    Parkman: Beta testing almost done
