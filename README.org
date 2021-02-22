@@ -12,7 +12,38 @@ which is not yet defined.
 
 This file is as good as any currently as an example of the schema.
 
-[[./prompts/meeting-bullets-to-summary.prompt]]
+** [[./prompts/meeting-bullets-to-summary.prompt]]
+
+#+BEGIN_SRC yaml -n :async :results verbatim code
+  title: "meeting bullet points to summary"
+  prompt: |+
+      Convert my short hand into a first-hand account of the meeting:
+      
+      <1>
+      
+      Summary:
+  engine: "davinci-instruct-beta"
+  temperature: 0.7
+  max-tokens: 60
+  top-p: 1
+  frequency-penalty: 0.0
+  presence-penalty: 0.0
+  best-of: 1
+  stop-sequences:
+  - "\n\n"
+  inject-start-text: yes
+  inject-restart-text: yes
+  show-probabilities: off
+  vars:
+  - "notes"
+  examples:
+  - |+
+      Tom: Profits up 50%
+      Jane: New servers are online
+      Kjel: Need more time to fix software
+      Jane: Happy to help
+      Parkman: Beta testing almost done
+#+END_SRC
 
 If you are looking for a tool which can load
 and make use of these =.prompt= files
