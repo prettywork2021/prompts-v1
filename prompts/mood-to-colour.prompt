@@ -4,14 +4,15 @@ prompt: |+
     
     background-color: #
 engine: "davinci"
-temperature: 0.3
-max-tokens: 60
+temperature: 0
+max-tokens: 64
 top-p: 1
-frequency-penalty: 0.5
+frequency-penalty: 0.0
 # If I make presence-penalty 0 then it will get very terse
 presence-penalty: 0.0
 best-of: 1
 stop-sequences:
+- ";"
 - "\n"
 inject-start-text: yes
 inject-restart-text: yes
