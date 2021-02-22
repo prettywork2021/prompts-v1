@@ -17,6 +17,8 @@ stop-sequences:
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
+# A flag just for convenience-sake to find prompts which are designed to be chatbots
+conversation-mode: no
 vars:
 - "notes"
 examples:
