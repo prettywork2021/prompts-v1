@@ -52,3 +52,6 @@ directly, you may use the =GPL-3= mode for
 emacs that was used to generate them.
 
 https://github.com/mullikine/prompt-engineer-mode
+
+** Testing
+*** TODO Use =cucumber= for test cases
