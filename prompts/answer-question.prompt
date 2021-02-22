@@ -31,5 +31,4 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "former"
-- "latter"
+- "question about anything"
