@@ -1,0 +1,25 @@
+title: "classification of item"
+description: "Classify items into categories via example"
+prompt: |+
+    The following is a list of companies and the categories they fall into
+    
+    Facebook: Social media, Technology
+    LinkedIn: Social media, Technology, Enterprise, Careers
+    Uber: Transportation, Technology, Marketplace
+    Unilever: Conglomerate, Consumer Goods
+    Mcdonalds: Food, Fast Food, Logistics, Restaurants
+    <1>:
+engine: "davinci"
+temperature: 0
+max-tokens: 6
+top-p: 1.0
+frequency-penalty: 0.0
+presence-penalty: 0.0
+best-of: 1
+stop-sequences:
+- "\n"
+inject-start-text: yes
+inject-restart-text: yes
+show-probabilities: off
+vars:
+- "item to classify"
