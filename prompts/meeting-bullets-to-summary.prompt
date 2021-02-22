@@ -19,6 +19,9 @@ inject-restart-text: yes
 show-probabilities: off
 # A flag just for convenience-sake to find prompts which are designed to be chatbots
 conversation-mode: no
+# Keep stitching together until reaching this limit
+# This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
+stitch-max: 5
 vars:
 - "notes"
 examples:
@@ -28,6 +31,3 @@ examples:
     Kjel: Need more time to fix software
     Jane: Happy to help
     Parkman: Beta testing almost done
-# Keep stitching together until reaching this limit
-# This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
-stitch-max: 5
