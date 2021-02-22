@@ -1,4 +1,5 @@
 title: "mood to colour"
+# It appears that hashtags (#) are one issue to be aware of in YAML multiline strings
 prompt: |+
     The CSS code for a color like <1>:
     
