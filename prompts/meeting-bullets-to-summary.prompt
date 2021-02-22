@@ -18,7 +18,7 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "former"
+- "notes"
 examples:
 - |+
     Tom: Profits up 50%
