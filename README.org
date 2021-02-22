@@ -12,7 +12,7 @@ which is not yet defined.
 
 This file is as good as any currently as an example of the schema.
 
-[[./prompts/obfuscate-language.prompt]]
+[[./prompts/meeting-bullets-to-summary.prompt]]
 
 If you are looking for a tool which can load
 and make use of these =.prompt= files
