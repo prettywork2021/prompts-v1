@@ -36,6 +36,9 @@ This file is as good as any currently as an example of the schema.
   show-probabilities: off
   # A flag just for convenience-sake to find prompts which are designed to be chatbots
   conversation-mode: no
+  # Keep stitching together until reaching this limit
+  # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
+  stitch-max: 0
   vars:
   - "notes"
   examples:
