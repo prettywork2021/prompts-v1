@@ -19,7 +19,7 @@ prompt: |+
     Answer:
 engine: "davinci"
 temperature: 0.3
-max-tokens: 60
+max-tokens: 100
 top-p: 1.0
 frequency-penalty: 0.5
 # If I make presence-penalty 0 then it will get very terse
