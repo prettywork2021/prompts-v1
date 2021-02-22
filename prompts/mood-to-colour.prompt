@@ -1,0 +1,22 @@
+title: "mood to colour"
+prompt: |+
+    The CSS code for a color like <1>:
+    
+    background-color: #
+engine: "davinci"
+temperature: 0.3
+max-tokens: 60
+top-p: 1
+frequency-penalty: 0.5
+# If I make presence-penalty 0 then it will get very terse
+presence-penalty: 0.0
+best-of: 1
+stop-sequences:
+- "\n"
+inject-start-text: yes
+inject-restart-text: yes
+show-probabilities: off
+vars:
+- "moode"
+examples:
+- "a blue sky at dusk"
