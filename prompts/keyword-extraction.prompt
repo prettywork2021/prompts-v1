@@ -17,3 +17,6 @@ inject-restart-text: yes
 show-probabilities: off
 vars:
 - "text"
+# External provides an alternate script that performs the same function
+external:
+- "extract-keyphrases"

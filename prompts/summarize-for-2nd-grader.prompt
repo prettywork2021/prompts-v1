@@ -20,3 +20,6 @@ inject-restart-text: yes
 show-probabilities: off
 vars:
   - "passage"
+# External provides an alternate script that performs the same function
+external:
+- "summarize-passage"
