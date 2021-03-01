@@ -53,7 +53,7 @@ This file is as good as any currently as an example of the schema.
 ** Tooling
 If you are looking for a tool which can load
 and make use of these =.prompt= files
-directly, you may use the =GPL-3= mode for
+directly, you may use =pen.el=, a package of
 emacs that was used to generate them.
 
 https://github.com/mullikine/pen.el
