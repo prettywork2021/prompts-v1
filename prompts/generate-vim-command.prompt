@@ -3,19 +3,19 @@ prompt: |+
     Insert "Q: " at the start of the line
     Vi command:
     :%s/^/Q: /g.
-    ###
+    \###
     Remove whitespace from the start of each line
     Vi command:
     :%s/^\s*/\1/g
-    ###
+    \###
     Join each line with the next line
     Vi command:
     :1,$j
-    ###
+    \###
     Make all occurrences of Steve lowercase
     Vi command:
     :%s/Steve/steve/g
-    ###
+    \###
     <1>
     Vi command:
 engine: "davinci"
