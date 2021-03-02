@@ -19,6 +19,7 @@ prompt: |+
     French: Quelles chambres avez-vous de disponible?
     
     English: <1>
+    French:
 engine: "davinci"
 temperature: 0.5
 max-tokens: 100
