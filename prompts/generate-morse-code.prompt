@@ -1,0 +1,28 @@
+title: "morse code from text"
+prompt: |+
+    Fall
+    ..-. .- .-.. .-..
+    Tuesday
+    - ..- . ... -.. .- .-..
+    <1>
+engine: "davinci"
+temperature: 0.3
+max-tokens: 60
+top-p: 1.0
+frequency-penalty: 0.5
+# If I make presence-penalty 0 then it will get very terse
+presence-penalty: 0.0
+best-of: 1
+stop-sequences:
+- "\n"
+inject-start-text: yes
+inject-restart-text: yes
+show-probabilities: off
+vars:
+- "latter"
+examples:
+- "What Season Is It?
+external: ""
+filter: no
+stitch-max: 0
+
