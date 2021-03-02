@@ -2,13 +2,13 @@ title: "Translate morse code to English"
 prompt: |+
   Morse code.
 
-  -.-. .- -. / .. / .... .- ...- . / ... --- -- . / -.-. .... --- -.-. --- .-.. .- - . ..--..
-  Can I have some chocolate?
+  Morse: -.-. .- -. / .. / .... .- ...- . / ... --- -- . / -.-. .... --- -.-. --- .-.. .- - . ..--..
+  English: Can I have some chocolate?
 
-  .. / .-.. --- ...- . / -.-- --- ..- .-.-.-
-  I love you.
+  Morse: .. / .-.. --- ...- . / -.-- --- ..- .-.-.-
+  English: I love you.
 
-  <1>
+  Morse: <1>
 engine: "davinci"
 temperature: 0.3
 max-tokens: 60

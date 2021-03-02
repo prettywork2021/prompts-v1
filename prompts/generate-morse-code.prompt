@@ -2,11 +2,11 @@ title: "morse code from text"
 prompt: |+
   Morse code.
 
-  Can I have some chocolate?
-  -.-. .- -. / .. / .... .- ...- . / ... --- -- . / -.-. .... --- -.-. --- .-.. .- - . ..--..
+  English: Can I have some chocolate?
+  Morse: -.-. .- -. / .. / .... .- ...- . / ... --- -- . / -.-. .... --- -.-. --- .-.. .- - . ..--..
 
-  I love you.
-  .. / .-.. --- ...- . / -.-- --- ..- .-.-.-
+  English: I love you.
+  Morse: .. / .-.. --- ...- . / -.-- --- ..- .-.-.-
 
   <1>
 engine: "davinci"
