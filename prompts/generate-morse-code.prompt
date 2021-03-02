@@ -21,7 +21,7 @@ show-probabilities: off
 vars:
 - "latter"
 examples:
-- "What Season Is It?"
+- "text to morse"
 external: ""
 filter: no
 stitch-max: 0
