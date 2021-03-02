@@ -35,11 +35,9 @@ inject-restart-text:
 - "\n"
 show-probabilities: off
 vars:
-- "former"
-- "latter"
+- "english prose"
 examples:
-- "boysenberries"
-- "strawberries"
+- "I love you."
 external: ""
 filter: no
 # Keep stitching together until reaching this limit
