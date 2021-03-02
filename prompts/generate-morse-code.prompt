@@ -15,6 +15,7 @@ frequency-penalty: 0.5
 # If I make presence-penalty 0 then it will get very terse
 presence-penalty: 0.0
 best-of: 1
+# Be careful with stop sequence as \n. The prompt is chomped by default and generating \n will end it
 stop-sequences:
 - "\n\n"
 inject-start-text: yes
