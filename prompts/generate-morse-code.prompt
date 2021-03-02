@@ -21,7 +21,7 @@ show-probabilities: off
 vars:
 - "latter"
 examples:
-- "What Season Is It?
+- "What Season Is It?"
 external: ""
 filter: no
 stitch-max: 0
