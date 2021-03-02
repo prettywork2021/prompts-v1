@@ -1,12 +1,10 @@
 title: "morse code from text"
 prompt: |+
-    Fall
-    ..-. .- .-.. .-..
-    Tuesday
-    - ..- . ... -.. .- .-..
-    SOS
-    ... --- ...
-    <1>
+  Can I have some chocolate?
+  -.-. .- -. / .. / .... .- ...- . / ... --- -- . / -.-. .... --- -.-. --- .-.. .- - . ..--..
+  I love you.
+  .. / .-.. --- ...- . / -.-- --- ..- .-.-.-
+  <1>
 engine: "davinci"
 temperature: 0.3
 max-tokens: 60
