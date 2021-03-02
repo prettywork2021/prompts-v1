@@ -4,6 +4,8 @@ prompt: |+
     ..-. .- .-.. .-..
     Tuesday
     - ..- . ... -.. .- .-..
+    SOS
+    ... --- ...
     <1>
 engine: "davinci"
 temperature: 0.3
