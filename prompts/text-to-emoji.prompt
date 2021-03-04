@@ -31,3 +31,5 @@ inject-restart-text: yes
 show-probabilities: off
 vars:
   - "text"
+examples:
+  - "monty python holy gra
