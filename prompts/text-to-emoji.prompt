@@ -8,11 +8,11 @@ prompt: |+
     Game of Thrones: 🏹🗡🗡🏹
     <1>:
 engine: "davinci"
-temperature: 0.5
-max-tokens: 100
+temperature: 0.8
+max-tokens: 60
 top-p: 1
-frequency-penalty: 0.2
-presence-penalty: 0.2
+frequency-penalty: 0.0
+presence-penalty: 0.0
 best-of: 1
 stop-sequences:
   - "\n"
