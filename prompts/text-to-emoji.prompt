@@ -32,4 +32,4 @@ show-probabilities: off
 vars:
   - "text"
 examples:
-  - "monty python holy gra
+  - "monty python holy grail"
