@@ -1,4 +1,4 @@
-title: "movie title to emoji"
+title: "text to emoji"
 prompt: |+
     Transformers: 🚗🤖
     Wonder Woman: 👸🏻👸🏼👸🏽👸🏾👸🏿
@@ -20,4 +20,4 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-  - "movie title"
+  - "title"
