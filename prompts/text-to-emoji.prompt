@@ -29,6 +29,7 @@ stop-sequences:
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
+quality: 0.3
 vars:
   - "text"
 examples:
