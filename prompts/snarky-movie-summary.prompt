@@ -28,4 +28,4 @@ show-probabilities: off
 vars:
   - "movie title"
 examples:
-  - "Davinci Code"
+  - "The Davinci Code"
