@@ -27,3 +27,5 @@ inject-restart-text: yes
 show-probabilities: off
 vars:
   - "movie title"
+examples:
+  - "Davinci Code"
