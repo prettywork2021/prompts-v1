@@ -2,8 +2,8 @@ title: "Search for phone number"
 prompt: |+
     Phone number lookup New Zealand.
 
-    Dunedin City Council, phone
-    03-477 4000
+    Person: Dunedin City Council, phone
+    Mobile: 03-477 4000
     ###
     Person: Mayor Aaron Hawkins
     Mobile: 022 100 6634
