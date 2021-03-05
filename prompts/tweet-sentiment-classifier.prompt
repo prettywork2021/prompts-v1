@@ -30,3 +30,5 @@ inject-restart-text: yes
 show-probabilities: off
 vars:
 - "tweet"
+examples:
+- "I give up."
