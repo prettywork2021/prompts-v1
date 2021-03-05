@@ -1,0 +1,34 @@
+title: "Search for phone number"
+prompt: |+
+    Phone number lookup.
+
+    Dunedin City Council, phone
+    03-477 4000
+    ###
+    Person: Mayor Aaron Hawkins
+    Mobile: 022 100 6634
+    ###
+    Person: <1>
+    Mobile:
+engine: "davinci"
+temperature: 0.2
+max-tokens: 60
+top-p: 1.0
+frequency-penalty: 0.5
+# If I make presence-penalty 0 then it will get very terse
+presence-penalty: 0.0
+best-of: 1
+stop-sequences:
+- "###"
+inject-start-text: yes
+inject-restart-text: yes
+show-probabilities: off
+vars:
+- "person"
+examples:
+- "Elon Musk"
+external: ""
+filter: no
+# Keep stitching together until reaching this limit
+# This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
+stitch-max: 0
