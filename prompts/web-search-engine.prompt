@@ -31,7 +31,7 @@ show-probabilities: off
 vars:
 - "query"
 examples:
-- "bodacious blog"
+- "lord of the rings website"
 external: ""
 filter: no
 # Keep stitching together until reaching this limit
