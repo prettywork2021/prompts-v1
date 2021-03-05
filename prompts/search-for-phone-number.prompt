@@ -2,13 +2,19 @@ title: "Search for phone number"
 prompt: |+
     Phone number lookup New Zealand.
 
-    Person: Dunedin City Council, phone
+    Dunedin City Council, phone
     Mobile: 03-477 4000
     ###
-    Person: Mayor Aaron Hawkins
+    Dunedin City Baptist Church
+    Phone: 03-488 4222
+    ###
+    New Zealand Automobile Association
+    Phone: 09-966 8688
+    ###
+    Mayor Aaron Hawkins
     Mobile: 022 100 6634
     ###
-    Person: <1>
+    <1>
     Mobile:
 engine: "davinci"
 temperature: 0.2
