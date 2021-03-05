@@ -38,7 +38,7 @@ show-probabilities: off
 vars:
 - "prose query"
 examples:
-- "what are "
+- "Who has the lowest salary"
 external: ""
 filter: no
 # Keep stitching together until reaching this limit
