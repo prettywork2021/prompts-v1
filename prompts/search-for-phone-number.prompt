@@ -1,6 +1,6 @@
 title: "Search for phone number"
 prompt: |+
-    Phone number lookup New Zealand.
+    Contact.
 
     Dunedin City Council, phone
     Mobile: 03-477 4000
@@ -14,10 +14,19 @@ prompt: |+
     Mayor Aaron Hawkins
     Mobile: 022 100 6634
     ###
+    McDonald's Dunedin North
+    Phone: 03-477 7774
+    ###
+    Shane Mulligan
+    Mobile: +64 21 1462 759
+    ###
+    Mayor Aaron Hawkins
+    Mobile: 022 100 6634
+    ###
     <1>
     Mobile:
 engine: "davinci"
-temperature: 0.2
+temperature: 0.0
 max-tokens: 60
 top-p: 1.0
 frequency-penalty: 0.5
