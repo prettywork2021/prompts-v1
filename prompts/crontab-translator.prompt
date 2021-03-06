@@ -1,0 +1,40 @@
+title: "crontab translator"
+prompt: |+
+  crontab
+
+  17 *	* * *
+  At minute 17.
+  ###
+  25 6	* * *
+  At 06:25.
+  ###
+  47 6	* * 7
+  At 06:47 on Sunday.
+  ###
+  52 6	1 * *
+  At 06:52 on day-of-month 1.
+  <1>
+engine: "davinci"
+temperature: 0.3
+max-tokens: 60
+top-p: 1.0
+frequency-penalty: 0.5
+# If I make presence-penalty 0 then it will get very terse
+presence-penalty: 0.0
+best-of: 1
+stop-sequences:
+- "\n\n"
+inject-start-text: yes
+inject-restart-text: yes
+show-probabilities: off
+vars:
+- "former"
+- "latter"
+examples:
+- "boysenberries"
+- "strawberries"
+external: ""
+filter: no
+# Keep stitching together until reaching this limit
+# This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
+stitch-max: 0
