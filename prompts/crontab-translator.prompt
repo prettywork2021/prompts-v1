@@ -28,11 +28,9 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "former"
-- "latter"
+- "tab"
 examples:
-- "boysenberries"
-- "strawberries"
+- "30 7    * * *"
 external: ""
 filter: no
 # Keep stitching together until reaching this limit
