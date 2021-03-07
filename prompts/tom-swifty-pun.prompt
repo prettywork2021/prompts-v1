@@ -42,8 +42,8 @@ prompt: |+
     “You can have a cow, but you can’t have a horse,” said Tom in the modern world.
     “Did you hear the story about the farmer and the horse?” asked Tom in passing.
 engine: "davinci"
-temperature: 0.3
-max-tokens: 100
+temperature: 0.8
+max-tokens: 1000
 top-p: 1.0
 frequency-penalty: 0.5
 # If I make presence-penalty 0 then it will get very terse
