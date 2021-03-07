@@ -42,7 +42,7 @@ show-probabilities: off
 vars:
 - "query or input"
 examples:
-- "How old is shane?"
+- "How old is Shane?"
 external: ""
 conversation-mode: no
 filter: no
