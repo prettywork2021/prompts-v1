@@ -13,6 +13,7 @@ prompt: |+
   ###
   52 6	1 * *
   At 06:52 on day-of-month 1.
+  ###
   <1>
 engine: "davinci"
 temperature: 0.3
