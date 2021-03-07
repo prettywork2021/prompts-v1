@@ -40,14 +40,9 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "python code"
+- "haskell code"
 examples:
-- |-
-    fruits = ["apple","banana","cherry"] 
-    a = list(fruits) 
-    print(a) 
-    a.reverse() 
-    print(a)
+- "min 1 2"
 external: ""
 filter: no
 # Keep stitching together until reaching this limit
