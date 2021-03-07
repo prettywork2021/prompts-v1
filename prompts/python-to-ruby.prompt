@@ -40,7 +40,7 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "haskell code"
+- "python code"
 examples:
 - |-
     fruits = ["apple","banana","cherry"] 
