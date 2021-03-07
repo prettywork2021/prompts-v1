@@ -42,7 +42,12 @@ show-probabilities: off
 vars:
 - "haskell code"
 examples:
-- "min 1 2"
+- |-
+    fruits = ["apple","banana","cherry"] 
+    a = list(fruits) 
+    print(a) 
+    a.reverse() 
+    print(a)
 external: ""
 filter: no
 # Keep stitching together until reaching this limit

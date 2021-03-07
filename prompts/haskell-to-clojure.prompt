@@ -42,12 +42,7 @@ show-probabilities: off
 vars:
 - "python code"
 examples:
-- |-
-    fruits = ["apple","banana","cherry"] 
-    a = list(fruits) 
-    print(a) 
-    a.reverse() 
-    print(a)
+- "min 1 2"
 external: ""
 filter: no
 # Keep stitching together until reaching this limit
