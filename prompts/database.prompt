@@ -1,4 +1,5 @@
 title: "database example"
+doc: "GPT-3 as a NL interface for semantically querying logic in prose"
 prompt: |+
     The database begins knowing nothing.
     The database knows everything that is added to it.
