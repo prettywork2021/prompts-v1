@@ -1,4 +1,5 @@
 title: "tweet sentiment"
+doc: "Outputs Positive or Negative sentiment for a given sentence"
 prompt: |+
       This is a tweet sentiment classifier
       
