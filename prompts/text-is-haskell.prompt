@@ -30,16 +30,13 @@ prompt: |+
     Code:regex = re.compile(r'^(?P<indent>(?: {4})*)(?P<name>\S.*)')
     Language:?
     ###
-    Code:doubleSmallNumber x = if x > 100
-                            then x
-                            else x*2
+    Code:doubleSmallNumber x = if x > 100 then x else x*2
     Language:Haskell
     ###
     Code:[ x | x <- [50..100], x `mod` 7 == 3]
     Language:Haskell
     ###
     Code:* TODO Look into =ctrl=
-    e:~/source/git/salesforce/ctrl/
     Language:?
     ###
     <1>
