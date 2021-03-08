@@ -51,7 +51,7 @@ prompt: |+
     <1>
     Language:
 engine: "davinci"
-temperature: 0.2
+temperature: 0.1
 max-tokens: 40
 top-p: 1.0
 frequency-penalty: 0.5
