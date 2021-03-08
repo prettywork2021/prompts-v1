@@ -10,6 +10,10 @@ prompt: |+
     Code:[1,2,3,4] ++ [9,10,11,12]
     Language:Haskell
     ###
+    Code:In reality, it would require too much code to hide _Prelude_ clashes like this, so you
+    would in fact use a qualified import of =Data.Stream= instead.
+    Language:?
+    ###
     Code:data Shape = Circle Float Float Float | Rectangle Float Float Float Float deriving (Show)
     Language:Haskell
     ###
