@@ -26,6 +26,7 @@ prompt: |+
     A: yo be real
     
     Q: <1>
+    A:
 engine: "davinci"
 temperature: 0.3
 max-tokens: 60
@@ -42,11 +43,10 @@ show-probabilities: off
 vars:
 - "question"
 examples:
-- "What is a boysenberry"
+- "What is a boysenberry?"
 external: ""
 conversation-mode: no
 filter: no
 # Keep stitching together until reaching this limit
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
 stitch-max: 0
-
