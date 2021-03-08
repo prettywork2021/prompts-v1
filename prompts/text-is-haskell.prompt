@@ -1,0 +1,65 @@
+title: "test if text is haskell"
+doc: "tests if text is haskell code"
+prompt: |+
+    If the query is haskell code, respond with "Haskell". If the query is not haskell code, respond with "?".
+
+    ###
+    [1,2,3,4] ++ [9,10,11,12]
+    Language:Haskell
+    ###
+    data Shape = Circle Float Float Float | Rectangle Float Float Float Float deriving (Show)
+    
+    :t Circle
+    map (Circle 10 20) [4,5,6,6]
+    Language:Haskell
+    ###
+    (ns example.pprinter (:use clojure.pprint))
+    Not Haskell
+    ###
+    "Steve Buscemi" !! 6
+    Language:Haskell
+    ###
+    regex = re.compile(r'^(?P<indent>(?: {4})*)(?P<name>\S.*)')
+    stack = []
+    Language:?
+    ###
+    doubleSmallNumber x = if x > 100
+                            then x
+                            else x*2
+    Language:Haskell
+    ###
+    [ x | x <- [50..100], x `mod` 7 == 3]
+    [x*2 | x <- [1..10]]  
+    [x*2 | x <- [1..10], x*2 >= 12]
+    Language:Haskell
+    ###
+    * TODO Look into =ctrl=
+    e:~/source/git/salesforce/ctrl/
+    Language:?
+    ###
+    <1>
+    Language:
+engine: "davinci"
+temperature: 0.3
+max-tokens: 60
+top-p: 1.0
+frequency-penalty: 0.5
+# If I make presence-penalty 0 then it will get very terse
+presence-penalty: 0.0
+best-of: 1
+stop-sequences:
+- "###"
+inject-start-text: yes
+inject-restart-text: yes
+show-probabilities: off
+vars:
+- "text"
+examples:
+- |+
+    putStrLn $ "Hey, I Love " ++ city ++ "!"
+external: ""
+conversation-mode: no
+filter: no
+# Keep stitching together until reaching this limit
+# This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
+stitch-max: 0
