@@ -11,15 +11,12 @@ prompt: |+
     Language:Haskell
     ###
     Code:In reality, it would require too much code to hide _Prelude_ clashes like this, so you
-    would in fact use a qualified import of =Data.Stream= instead.
     Language:?
     ###
     Code:data Shape = Circle Float Float Float | Rectangle Float Float Float Float deriving (Show)
     Language:Haskell
     ###
     Code:In reality, it would require too much code to hide _Prelude_ clashes like this, so you
-    would in fact use a qualified import of =Data.Stream= instead.
-    Language:?
     ###
     Code:(ns example.pprinter (:use clojure.pprint))
     Language:?
@@ -31,7 +28,6 @@ prompt: |+
     Language:Haskell
     ###
     Code:regex = re.compile(r'^(?P<indent>(?: {4})*)(?P<name>\S.*)')
-    stack = []
     Language:?
     ###
     Code:doubleSmallNumber x = if x > 100
@@ -40,8 +36,6 @@ prompt: |+
     Language:Haskell
     ###
     Code:[ x | x <- [50..100], x `mod` 7 == 3]
-    [x*2 | x <- [1..10]]  
-    [x*2 | x <- [1..10], x*2 >= 12]
     Language:Haskell
     ###
     Code:* TODO Look into =ctrl=
@@ -51,7 +45,7 @@ prompt: |+
     <1>
     Language:
 engine: "davinci"
-temperature: 0.1
+temperature: 0.5
 max-tokens: 40
 top-p: 1.0
 frequency-penalty: 0.5
