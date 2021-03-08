@@ -59,6 +59,7 @@ vars:
 examples:
 - |+
     putStrLn $ "Hey, I Love " ++ city ++ "!"
+# emacs function: detect-language
 external: ""
 conversation-mode: no
 filter: no
