@@ -1,0 +1,54 @@
+title: "define word"
+doc: "Get the definition of a word."
+prompt: |+
+    Dictionary.
+
+    fixture
+        A piece of equipment or furniture which is
+        fixed in position in a building or
+        vehicle.
+    
+    operatic
+        extravagantly theatrical; histrionic.
+    
+    vestige
+        A trace or remnant of something that is
+        disappearing or no longer exists.
+    
+    ossified
+        Turn into bone or bony tissue.
+    
+    onerous
+        (of a task or responsibility) involving a
+        great deal of effort, trouble, or
+        difficulty.
+
+    predilection
+        A preference or special liking for
+        something; a bias in favour of something.
+        "my predilection for Asian food"
+
+    <1>
+engine: "davinci"
+temperature: 0.3
+max-tokens: 60
+top-p: 1.0
+frequency-penalty: 0.5
+# If I make presence-penalty 0 then it will get very terse
+presence-penalty: 0.0
+best-of: 1
+stop-sequences:
+- "\n\n"
+inject-start-text: yes
+inject-restart-text: yes
+show-probabilities: off
+vars:
+- "word"
+examples:
+- "boysenberry"
+external: ""
+conversation-mode: no
+filter: no
+# Keep stitching together until reaching this limit
+# This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
+stitch-max: 0
