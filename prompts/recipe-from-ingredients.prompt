@@ -1,26 +1,36 @@
-title: "generate an essay outline"
+title: "Generate recipe instructions from name and ingredients"
 doc: ""
 prompt: |+
-    Create an outline for an essay about <1>:
+    Write a recipe based on these ingredients and instructions:
     
-    I: Introduction
-engine: "davinci"
-temperature: 0.7
-max-tokens: 60
+    <1>
+    
+    Directions:
+engine: "davinci-instruct-beta"
+temperature: 0
+max-tokens: 120
 top-p: 1.0
 frequency-penalty: 0.0
 # If I make presence-penalty 0 then it will get very terse
 presence-penalty: 0.0
 best-of: 1
 stop-sequences:
-- "\n\n\n"
+- "\n\n"
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "topic"
+- "ingredients-and-instructions"
 examples:
-- "Walt Disney and his contributions to animation"
+- |-
+    Frito Pie
+    
+    Ingredients:
+    Fritos
+    Chili
+    Shredded cheddar cheese
+    Sweet white or red onions, diced small
+    Sour cream
 external: ""
 conversation-mode: no
 filter: no
