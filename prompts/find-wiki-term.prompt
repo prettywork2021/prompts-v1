@@ -1,0 +1,41 @@
+title: "Find a wiki term given a query"
+doc: "Given a query, find the "
+prompt: |+
+    Given a query, return the correct wikipedia page name.
+
+    query:photographic memory
+    wiki:Eidetic memory
+    ###
+    query:dark night sky paradox
+    wiki:Olbers' paradox
+    ###
+    query:cartesian rationalism
+    wiki:cartesianism
+    ###
+    query:<1>
+    wiki:
+engine: "davinci"
+temperature: 0.3
+max-tokens: 60
+top-p: 1.0
+frequency-penalty: 0.5
+# If I make presence-penalty 0 then it will get very terse
+presence-penalty: 0.0
+best-of: 1
+stop-sequences:
+- "###"
+inject-start-text: yes
+inject-restart-text: yes
+show-probabilities: off
+vars:
+- "former"
+- "latter"
+examples:
+- "boysenberries"
+- "strawberries"
+external: ""
+conversation-mode: no
+filter: no
+# Keep stitching together until reaching this limit
+# This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
+stitch-max: 0
