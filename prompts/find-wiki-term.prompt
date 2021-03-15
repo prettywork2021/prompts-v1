@@ -34,11 +34,9 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "former"
-- "latter"
+- "query"
 examples:
-- "boysenberries"
-- "strawberries"
+- "rational language"
 external: ""
 conversation-mode: no
 filter: no
