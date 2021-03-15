@@ -3,6 +3,9 @@ doc: "Given a query, find the "
 prompt: |+
     Given a query, return the correct wikipedia page name.
 
+    query:emergent gravity
+    wiki:entropic gravity
+    ###
     query:photographic memory
     wiki:Eidetic memory
     ###
