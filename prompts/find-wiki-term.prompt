@@ -21,7 +21,7 @@ prompt: |+
     query:<1>
     wiki:
 engine: "davinci"
-temperature: 0.3
+temperature: 0.0
 max-tokens: 60
 top-p: 1.0
 frequency-penalty: 0.5
