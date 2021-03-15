@@ -1,22 +1,24 @@
 title: "Find a wiki term given a query"
-doc: "Given a query, find the "
+doc: |-
+  Given a query, find the right wiki page for it.
+  I want this to be better than google or wikipedia's redirection.
 prompt: |+
     Given a query, return the correct wikipedia page title.
 
     query:L2 norm
-    wiki:Norm (mathematics)
+    wiki:Norm_(mathematics)
     ###
-    query:emergent gravity
-    wiki:entropic gravity
+    query:rational language
+    wiki:Regular_language
     ###
     query:photographic memory
-    wiki:Eidetic memory
+    wiki:Eidetic_memory
     ###
     query:dark night sky paradox
-    wiki:Olbers' paradox
+    wiki:Olbers'_paradox
     ###
     query:cartesian rationalism
-    wiki:cartesianism
+    wiki:Cartesianism
     ###
     query:<1>
     wiki:
