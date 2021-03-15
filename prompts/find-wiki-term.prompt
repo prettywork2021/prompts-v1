@@ -5,25 +5,25 @@ doc: |-
   If you input cartesian rationalism, Google would send you to Rationalism.
   I want it to go to Cartesianism.
 prompt: |+
-    Given a query, return the correct wikipedia page title.
+    Given a query, return a working correct wikipedia page title.
 
     query:shannon entropy vs liklihood
-    wiki:Entropy_(information_theory)
+    wiki:https://en.wikipedia.org/wiki/Entropy_(information_theory)
     ###
     query:L2 norm
-    wiki:Norm_(mathematics)
+    wiki:https://en.wikipedia.org/wiki/Norm_(mathematics)
     ###
     query:rational language
-    wiki:Regular_language
+    wiki:https://en.wikipedia.org/wiki/Regular_language
     ###
     query:photographic memory
-    wiki:Eidetic_memory
+    wiki:https://en.wikipedia.org/wiki/Eidetic_memory
     ###
     query:dark night sky paradox
-    wiki:Olbers'_paradox
+    wiki:https://en.wikipedia.org/wiki/Olbers'_paradox
     ###
     query:cartesian rationalism
-    wiki:Cartesianism
+    wiki:https://en.wikipedia.org/wiki/Cartesianism
     ###
     query:<1>
     wiki:
