@@ -1,5 +1,5 @@
 title: "Translate to English"
-doc: ""
+doc: "This prompt translates text in any world langauge to English"
 prompt: |+
     English translation.
 
