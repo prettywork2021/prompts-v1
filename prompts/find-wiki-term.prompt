@@ -12,18 +12,23 @@ prompt: |+
     ###
     query:L2 norm
     wiki:https://en.wikipedia.org/wiki/Norm_(mathematics)
+    norm
     ###
     query:rational language
     wiki:https://en.wikipedia.org/wiki/Regular_language
+    regular language
     ###
     query:photographic memory
     wiki:https://en.wikipedia.org/wiki/Eidetic_memory
+    eidetic memory
     ###
     query:dark night sky paradox
     wiki:https://en.wikipedia.org/wiki/Olbers'_paradox
+    Olbers' paradox
     ###
     query:cartesian rationalism
     wiki:https://en.wikipedia.org/wiki/Cartesianism
+    cartesianism
     ###
     query:<1>
     wiki:
