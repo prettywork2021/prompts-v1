@@ -8,7 +8,7 @@ prompt: |+
     Given a query, return the correct wikipedia page title.
 
     query:shannon entropy vs liklihood
-    wiki:Entropy (information theory)
+    wiki:Entropy_(information_theory)
     ###
     query:L2 norm
     wiki:Norm_(mathematics)
