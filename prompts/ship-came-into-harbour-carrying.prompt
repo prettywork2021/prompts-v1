@@ -16,7 +16,7 @@ prompt: |+
     6 clothing brands starting with CC & M
     Croft,Caliwoods,Contare,Calvin Klein,Charles Viancin,Costume National
     ###
-    5 <1> starting with <2>
+    <1> <2> starting with <3>
 engine: "davinci"
 temperature: 0.7
 max-tokens: 60
@@ -31,9 +31,11 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
+- "n"
 - "type"
 - "letter"
 examples:
+- "5"
 - "island countries"
 - "T"
 external: ""
