@@ -7,7 +7,7 @@ prompt: |+
     <2>
 engine: "davinci"
 temperature: 0.3
-max-tokens: 60
+max-tokens: 200
 top-p: 1.0
 # Not available yet: openai api completions.create --help
 frequency-penalty: 0.5
