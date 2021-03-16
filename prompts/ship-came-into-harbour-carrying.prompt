@@ -1,9 +1,19 @@
 title: "Ship came into harbour carrying X"
 doc: ""
 prompt: |+
-    contents
-    
-    <1> are like <2> in that
+    8 countries starting with A
+    Afghanistan,Albania,Algeria,Andorra,Angola,Argentina,Armenia,Australia
+    ###
+    5 islands starting with N
+    Naart,Nærøya,Nagy-Pandúr-sziget,Nahaleg,Naissaar
+    ###
+    4 fruit starting with E
+    Elderberry,Eggfruit,Evergreen Huckleberry,Entawak
+    ###
+    12 clothing brands starting with CC & M
+    Caliwoods,Calvin Klein,Cambrian Plastics,Cambridge,Camden Co,Campo Marzio,Cane+Austin,Carolina Herrera,Caroline Sills,Carrément Beau,Carrière Frères,Cartier
+    ###
+    5 <1> starting with <2>
 engine: "davinci"
 temperature: 0.3
 max-tokens: 60
@@ -13,16 +23,16 @@ frequency-penalty: 0.5
 presence-penalty: 0.0
 best-of: 1
 stop-sequences:
-- "\n\n"
+- "###"
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "former"
-- "latter"
+- "type"
+- "letter"
 examples:
-- "boysenberries"
-- "strawberries"
+- "islands"
+- "T"
 external: ""
 conversation-mode: no
 filter: no
