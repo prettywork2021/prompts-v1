@@ -1,9 +1,10 @@
 title: "Generic file type completion"
-doc: "This is a generic completer for emacs"
+doc: |-
+    This is a generic completer for emacs.
 prompt: |+
-    contents
-    
-    <1> are like <2> in that
+    File type: <1>
+    Contents:
+    <2>
 engine: "davinci"
 temperature: 0.3
 max-tokens: 60
@@ -19,11 +20,11 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "former"
-- "latter"
+- "file type"
+- "preceding text"
 examples:
-- "boysenberries"
-- "strawberries"
+- "python"
+- ""
 external: ""
 conversation-mode: no
 filter: no
