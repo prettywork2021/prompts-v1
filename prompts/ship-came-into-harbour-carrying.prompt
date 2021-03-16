@@ -2,16 +2,18 @@ title: "Ship came into harbour carrying X"
 doc: ""
 prompt: |+
     8 countries starting with A
-    Afghanistan,Albania,Algeria,Andorra,Angola,Argentina,Armenia,Australia
+    American Samoa,Armenia,Australia,Afghanistan,Albania,Andorra,Angola,Argentina
     ###
-    5 islands starting with N
-    Naart,Nærøya,Nagy-Pandúr-sziget,Nahaleg,Naissaar
+    3 car brands starting with H
+    Holden,Hyundai,Honda
+    7 islands starting with N
+    New Britain,Naart,Nukumanu,Nærøya,Nikumaroro,Nagy-Pandúr-sziget,Neuwerk
     ###
     4 fruit starting with E
-    Elderberry,Eggfruit,Evergreen Huckleberry,Entawak
+    Evergreen Huckleberry,Entawak,Elderberry,Eggfruit
     ###
-    12 clothing brands starting with CC & M
-    Caliwoods,Calvin Klein,Cambrian Plastics,Cambridge,Camden Co,Campo Marzio,Cane+Austin,Carolina Herrera,Caroline Sills,Carrément Beau,Carrière Frères,Cartier
+    6 clothing brands starting with CC & M
+    Croft,Caliwoods,Contare,Calvin Klein,Charles Viancin,Costume National
     ###
     5 <1> starting with <2>
 engine: "davinci"
