@@ -11,9 +11,14 @@ frequency-penalty: 0.0
 presence-penalty: 0.0
 best-of: 1
 stop-sequences:
-- "\n"
+- "\n\n"
 inject-start-text: yes
 inject-restart-text: yes
-show-probabilities: off
+chomp-start: on
+chomp-end: on
 vars:
-- "passage"
+  - "passage"
+# External provides an alternate script that performs the same function
+external:
+- "summarize-passage"
+show-probabilities: off
