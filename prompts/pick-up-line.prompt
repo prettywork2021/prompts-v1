@@ -1,5 +1,5 @@
 title: "generate pick up line"
-doc: ""
+doc: "Generate pick up lines from a topic"
 prompt: |+
     The following are witty openers for Tinder:
     ###
