@@ -15,7 +15,9 @@ presence-penalty: 0.2
 best-of: 1
 stop-sequences:
   - "###"
-  - "\n\n"
+  # Unfortunately, this doesn't work yet
+  # Multiple --stop arguments to openai override the previous
+  # - "\n\n"
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
