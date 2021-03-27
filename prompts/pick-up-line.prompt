@@ -21,7 +21,7 @@ prompt: |+
     What’s the difference between you and a psychologist?
     Are you an expert on human behavior?
     ###
-    TOPIC:<1>
+    TOPIC: <1>
     OPENERS:
 engine: "davinci"
 # 0.0 = /r/hadastroke
@@ -44,7 +44,7 @@ vars:
 - "topic"
 examples:
 - "music"
-chomp-start: off
+chomp-start: on
 chomp-end: off
 external: ""
 conversation-mode: no
