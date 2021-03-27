@@ -15,9 +15,12 @@ presence-penalty: 0.2
 best-of: 1
 stop-sequences:
   - "###"
+  # I have to find a way to do multiple stop sequences
+  - "\n\n"
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
+chomp-start: on
 vars:
   - "passage"
 # External provides an alternate script that performs the same function
