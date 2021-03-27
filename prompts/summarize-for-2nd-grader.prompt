@@ -22,6 +22,7 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 chomp-start: on
+chomp-end: on
 vars:
   - "passage"
 # External provides an alternate script that performs the same function
