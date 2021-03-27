@@ -43,6 +43,8 @@ vars:
 - "question"
 examples:
 - "What is a boysenberry?"
+chomp-start: on
+chomp-end: off
 external: ""
 conversation-mode: no
 filter: no
