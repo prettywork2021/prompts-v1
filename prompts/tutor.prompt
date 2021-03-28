@@ -1,11 +1,9 @@
 title: "Generic tutor for any topic"
 prompt: |+
-    This is a conversation about <1>.
+    Topic: <1>
     
-    You: I'd like to ask you a question about <1>.
-    Tutor: What would you like to ask?
-    You: <2>
-    Tutor:
+    Question: <2>
+    Answer:
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
 # Use 0.3-0.8
