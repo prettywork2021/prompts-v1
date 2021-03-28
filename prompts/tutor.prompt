@@ -1,0 +1,39 @@
+title: "Generic tutor for any topic"
+prompt: |+
+    This is a conversation about <1>.
+    
+    You: I'd like to ask you a question about <1>.
+    Tutor: What would you like to ask?
+    You: <2>
+    Tutor:
+# 0.0 = /r/hadastroke
+# 1.0 = /r/iamveryrandom
+# Use 0.3-0.8
+temperature: 0.8
+max-tokens: 60
+top-p: 1.0
+# Not available yet: openai api completions.create --help
+frequency-penalty: 0.5
+# If I make presence-penalty 0 then it will get very terse
+presence-penalty: 0.0
+best-of: 1
+stop-sequences:
+- "\n"
+inject-start-text: yes
+inject-restart-text: yes
+show-probabilities: off
+vars:
+- "topic"
+- "question"
+examples:
+- "node js"
+- "What was the version of node in 2018?"
+chomp-start: off
+chomp-end: off
+external: ""
+conversation-mode: no
+filter: no
+# Keep stitching together until reaching this limit
+# This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
+stitch-max: 0
+needs-work: no
