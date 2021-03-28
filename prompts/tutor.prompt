@@ -7,6 +7,7 @@ prompt: |+
     AI: I am doing great. How can I help you today?
     Human: <2>
     AI:
+engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
 # Use 0.3-0.8
