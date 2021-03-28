@@ -33,7 +33,7 @@ inject-restart-text: yes
 show-probabilities: off
 vars:
 - "topic"
-- "in the topic of"
+- "in the context of"
 - "question"
 examples:
 - "node js"
