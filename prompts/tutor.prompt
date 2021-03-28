@@ -5,7 +5,9 @@ prompt: |+
 
     Human: Hello, who are you?
     AI: I am doing great. How can I help you today?
-    Human: <2>
+    Human: What questions can I ask you about <1>?
+    AI: You may ask me anything to do with <1>.
+    Human: OK then. <2>
     AI:
 engine: "davinci"
 # 0.0 = /r/hadastroke
