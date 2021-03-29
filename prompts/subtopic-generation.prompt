@@ -41,6 +41,7 @@ chomp-end: off
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
+cache: on
 vars:
 - "topic"
 examples:
