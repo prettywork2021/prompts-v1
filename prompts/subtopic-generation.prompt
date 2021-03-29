@@ -1,6 +1,26 @@
 title: "subtopic generation"
 prompt: |+
-    subtopics
+    The following is a list of subtopics relating to microbiology:
+    - Bacteriology
+    - Mycology
+    - Protozoology
+    - Phycology/algology
+    - Parasitology
+    - Immunology
+    - Virology
+    - Nematology
+    ###
+    The following is a list of subtopics relating to natural language processing / NLP:
+    - extractive question answering
+    - language modelling
+    - named entity recognition  
+    - sequence classification
+    - summarization
+    - text generation
+    - topic modelling
+    - translation
+    ###
+
     Text: <1>
     
     Keywords:
