@@ -26,6 +26,7 @@ prompt: |+
     - gext generation
     ###
     The following is a list of subtopics relating to <1>:
+    - 
 engine: "davinci"
 temperature: 0.3
 max-tokens: 60
