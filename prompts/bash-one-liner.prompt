@@ -3,17 +3,17 @@ doc: "Get a bash one liner from natural language"
 
 # The : in these prompts is important to indicate when the code starts
 prompt: |+
-    # This is a list of one-liners for the linux command-line:
+    The following is a list of one-liners for the linux command-line:
     
     # get newest file in directory bash:
     ls -t * | head -1
-
+    ###
     # Find with invert match - e.g. find every file that is not mp3:
     find . -name '*' -type f -not -path '*.mp3'
-
+    ###
     # Recursively remove all "node_modules" folders:
     find . -name "node_modules" -exec rm -rf '{}' +
-
+    ###
     # <1>:
 engine: "davinci"
 # 0.0 = /r/hadastroke
