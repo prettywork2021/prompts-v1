@@ -20,10 +20,12 @@ prompt: |+
     - topic modelling
     - translation
     ###
-
-    Text: <1>
-    
-    Keywords:
+    The following is a list of subtopics relating to language modelling in NLP:
+    - casual language modelling
+    - masked language modelling
+    - gext generation
+    ###
+    The following is a list of subtopics relating to <1>:
 engine: "davinci"
 temperature: 0.3
 max-tokens: 60
@@ -37,7 +39,9 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "text"
+- "topic"
+examples:
+- "Advanced Type Systems in Haskell"
 # External provides an alternate script that performs the same function
 external:
 - "extract-keyphrases"
