@@ -20,6 +20,10 @@ prompt: |+
     both :: (a -> b) -> (a, a) -> (b, b)
     both = join (***)
     ###
+    Language: Python
+    Task: Palindrome Python One-Liner
+    Code: phrase.find(phrase[::-1])
+    ###
     Language: <1>    
     Task: <2>
     Code:
