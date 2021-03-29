@@ -3,29 +3,29 @@ doc: "Get a bash one liner from natural language"
 
 # The : in these prompts is important to indicate when the code starts
 prompt: |+
-    Language: bash
+    # This is a list of one-liners in bash:
     
-    Task: get newest file in directory bash:
+    # get newest file in directory bash
     Command: ls -t * | head -1
     ###
-    Task: Report disk usage by file type:
+    # Report disk usage by file type
     command: find . -type f -empty -prune -o -type f -printf "%s\t" -exec file --brief --mime-type '{}' \; | awk 'BEGIN {printf("%12s\t%12s\n","bytes","type")} {type=$2; a[type]+=$1} END {for (i in a) printf("%12u\t%12s\n", a[i], i)|"sort -nr"}'
     ###
-    Task: Find with invert match - e.g. find every file that is not mp3:
+    # Find with invert match - e.g. find every file that is not mp3
     Command: find . -name '*' -type f -not -path '*.mp3'
     ###
-    Task: Convert pip list --outdated for reuse in pip install -U:
+    # Convert pip list --outdated for reuse in pip install -U
     Command: python3 -m pip install -U $(python3 -m pip list outdated 2> /dev/null | grep -v 'Version' | grep -v '\-\-\-\-\-\-' | awk '{printf $1 " " }' && echo)
     ###
-    Task: Recursively remove all "node_modules" folders:
+    # Recursively remove all "node_modules" folders
     command: find . -name "node_modules" -exec rm -rf '{}' +
     ###
-    Task: <1>:
+    # <1>
 engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
 # Use 0.3-0.8
-temperature: 0.5
+temperature: 0.8
 max-tokens: 60
 top-p: 1.0
 # Not available yet: openai api completions.create --help
