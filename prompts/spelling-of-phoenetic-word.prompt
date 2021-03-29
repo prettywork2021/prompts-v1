@@ -1,6 +1,8 @@
 title: "Correct spelling for word"
 doc: "Find the correct spelling of a word"
 prompt: |+
+    Give the correct spelling, given what it sounds like.
+
     eye phone sounds like iphone
     ###    borgwah sounds like bourgeois
     borjwah sounds like bourgeois
@@ -8,6 +10,7 @@ prompt: |+
     crative sounds like creative
     ###
     crusont sounds like croissant
+    ###
     crassont sounds like croissant
     ###
     <1> sounds like
