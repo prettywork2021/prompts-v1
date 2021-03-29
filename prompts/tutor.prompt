@@ -42,7 +42,7 @@ examples:
 chomp-start: on
 chomp-end: off
 external: ""
-conversation-mode: no
+conversation-mode: yes
 filter: no
 # Keep stitching together until reaching this limit
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
