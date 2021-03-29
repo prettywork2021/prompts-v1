@@ -43,7 +43,7 @@ vars:
 - "task description"
 examples:
 - "shift last argument"
-chomp-start: off
+chomp-start: on
 chomp-end: off
 external: ""
 conversation-mode: no
