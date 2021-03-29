@@ -36,6 +36,8 @@ presence-penalty: 0.0
 best-of: 1
 stop-sequences:
 - "###"
+chomp-start: on
+chomp-end: off
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
