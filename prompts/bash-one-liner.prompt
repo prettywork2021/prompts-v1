@@ -1,17 +1,30 @@
-title: "bash one liner"
-doc: "Get a bash one liner from natural langauge"
+title: "bash one liner generator from natural language"
+doc: "Get a bash one liner from natural language"
 prompt: |+
     Language: bash
     
-    # get newest file in directory bash
-    ls -t * | head -1
-    
-    <1> are like <2> in that
+    # get newest file in directory bash1
+    $ ls -t * | head -1
+    ###
+    # Report disk usage by file type
+    $ find . -type f -empty -prune -o -type f -printf "%s\t" -exec file --brief --mime-type '{}' \; | awk 'BEGIN {printf("%12s\t%12s\n","bytes","type")} {type=$2; a[type]+=$1} END {for (i in a) printf("%12u\t%12s\n", a[i], i)|"sort -nr"}'
+    ###
+    # Find with invert match - e.g. find every file that is not mp3
+    $ find . -name '*' -type f -not -path '*.mp3'
+    ###
+    # Convert pip list --outdated for reuse in pip install -U
+    $ python3 -m pip install -U $(python3 -m pip list outdated 2> /dev/null | grep -v 'Version' | grep -v '\-\-\-\-\-\-' | awk '{printf $1 " " }' && echo)
+    ###
+    # Recursively remove all "node_modules" folders
+    $ find . -name "node_modules" -exec rm -rf '{}' +
+    ###
+    # <1>
+    $
 engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
 # Use 0.3-0.8
-temperature: 0.8
+temperature: 0.5
 max-tokens: 60
 top-p: 1.0
 # Not available yet: openai api completions.create --help
@@ -22,16 +35,14 @@ best-of: 1
 stop-sequences:
 # - "\n"
 # - "\n\n"
-- "#"
+- "###"
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "former"
-- "latter"
+- "task description"
 examples:
-- "boysenberries"
-- "strawberries"
+- "shift last argument"
 chomp-start: off
 chomp-end: off
 external: ""
