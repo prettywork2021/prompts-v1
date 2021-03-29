@@ -37,8 +37,8 @@ show-probabilities: off
 vars:
 - "incorrect spelling"
 examples:
-- "eye phone"
-chomp-start: off
+- "meksikan"
+chomp-start: on
 chomp-end: off
 external: ""
 conversation-mode: no
