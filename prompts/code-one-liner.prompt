@@ -1,12 +1,28 @@
 title: "generic one liner generator from natural language"
 doc: "Get a bash one liner from natural langauge"
 prompt: |+
-    Language: <1>
-    
-    # get newest file in directory bash1
-    ls -t * | head -1
-    
-    <1> are like <2> in that
+    Language: Ruby
+    Task: Reverse lines from stdout
+    Code: while s = gets; puts s.chop.reverse; end
+    Language: Haskell
+    Task: Multiple Each Item in a List by 2
+    Code:
+    map (*2) [1..10]
+    ###
+    Language: bash
+    Task: Recursively remove all "node_modules" folders
+    Code:
+    find . -name "node_modules" -exec rm -rf '{}' +
+    ###
+    Language: Haskell
+    Task: Apply a function to both bits of a tuple:
+    Code:
+    both :: (a -> b) -> (a, a) -> (b, b)
+    both = join (***)
+    ###
+    Language: <1>    
+    Task: <2>
+    Code:
 engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
@@ -27,10 +43,10 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "former"
-- "latter"
+- "language"
+- "task"
 examples:
-- "boysenberries"
+- "haskell"
 - "strawberries"
 chomp-start: off
 chomp-end: off
