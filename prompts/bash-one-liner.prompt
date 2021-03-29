@@ -3,7 +3,7 @@ doc: "Get a bash one liner from natural language"
 
 # The : in these prompts is important to indicate when the code starts
 prompt: |+
-    # This is a list of one-liners in bash:
+    # This is a list of one-liners for the linux command-line:
     
     # get newest file in directory bash:
     ls -t * | head -1
