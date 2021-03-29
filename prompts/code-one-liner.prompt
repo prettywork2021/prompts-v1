@@ -52,7 +52,7 @@ vars:
 examples:
 - "bash"
 - "suspend laptop"
-chomp-start: off
+chomp-start: on
 chomp-end: off
 external: ""
 conversation-mode: no
