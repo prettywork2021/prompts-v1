@@ -47,7 +47,7 @@ vars:
 - "article title"
 examples:
 - "Building an SMS Chatbot with OpenAI's GPT-3 engine, Twilio and Python"
-chomp-start: off
+chomp-start: on
 chomp-end: off
 external: ""
 conversation-mode: no
