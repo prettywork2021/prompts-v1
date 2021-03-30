@@ -26,7 +26,7 @@ prompt: |+
     - gext generation
     ###
     The following is a list of subtopics relating to <1>:
-    - 
+    <2>- 
 engine: "davinci"
 temperature: 0.8
 max-tokens: 60
@@ -45,8 +45,12 @@ show-probabilities: off
 cache: on
 vars:
 - "topic"
+- "existing subtopics"
 examples:
 - "Advanced Type Systems in Haskell"
+- |+
+  - Dependent Types
+  - Impredicative Types
 # External provides an alternate script that performs the same function
 # external:
 # - "extract-keyphrases"
