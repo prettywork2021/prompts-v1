@@ -1,3 +1,4 @@
+title: "Correct spelling for word"
 doc: "Find the correct spelling of a word"
 prompt: |+
     Correct the spelling of these badly spelled words.
