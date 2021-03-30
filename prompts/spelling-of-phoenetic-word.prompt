@@ -3,21 +3,32 @@ doc: "Find the correct spelling of a word"
 prompt: |+
     Correct the spelling of these badly spelled words.
 
-    "eye phone" should be iphone
-    ###    borgwah sounds like bourgeois
-    "borjwah" should be bourgeois
+    Incorrect: eye phone
+    Correct: iphone
     ###
-    "crative" should be creative
+    Incorrect: borgwah
+    Correct: bourgeois
     ###
-    "lionado davinshee" should be Leonardo Danvinci
+    Incorrect: borjwah
+    Correct: bourgeois
     ###
-    "crusont" should be croissant
+    Incorrect: crative
+    Correct: creative
     ###
-    "crassont should be croissant
+    Incorrect: lionado davinshee
+    Correct: Leonardo Danvinci
     ###
-    "seennees art" should be Sienese art
+    Incorrect: crusont
+    Correct: croissant
     ###
-    "<1>" should be
+    Incorrect: crassont
+    Correct: croissant
+    ###
+    Incorrect: seennees art
+    Correct: Sienese art
+    ###
+    Incorrect: "<1>"
+    Correct:
 engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
