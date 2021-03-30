@@ -27,7 +27,7 @@ prompt: |+
     Incorrect: seennees art
     Correct: Sienese art
     ###
-    Incorrect: "<1>"
+    Incorrect: <1>
     Correct:
 engine: "davinci"
 # 0.0 = /r/hadastroke
