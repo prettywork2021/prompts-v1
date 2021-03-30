@@ -44,7 +44,7 @@ show-probabilities: off
 # Cache the function by default when running the prompt function
 cache: off
 vars:
-- "title"
+- "article title"
 examples:
 - "Building an SMS Chatbot with OpenAI's GPT-3 engine, Twilio and Python"
 chomp-start: off
