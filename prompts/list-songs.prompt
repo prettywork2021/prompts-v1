@@ -1,9 +1,34 @@
 title: "List songs given an artist or album"
 doc: ""
 prompt: |+
-    contents
-    
-    <1> are like <2> in that
+    Given the title of a band or an album, list some popular songs.
+
+    ###
+    Red Hot Chili Peppers
+    Track list:
+    - Under the Bridge
+    - Dani California
+    - Californication
+    - By The Way
+    - Higher Ground
+    - Tell Me Baby
+    ###
+    Nirvana, Bleach
+    Track list:
+    - Love Buzz
+    - Blew
+    - School
+    - Mr Moustache
+    ###
+    Dark side of the moon
+    Track list:
+    - Money
+    - Time
+    - The Great Gig in the Sky
+    ###
+    <1>
+    Track list:
+    -
 engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
