@@ -33,6 +33,7 @@ examples:
 - "strawberries"
 chomp-start: on
 chomp-end: off
+prefer-external: on
 external: "gl"
 conversation-mode: no
 filter: no
