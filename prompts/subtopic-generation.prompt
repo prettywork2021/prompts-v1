@@ -1,4 +1,5 @@
 title: "subtopic generation"
+doc: "Given a topic, generate a list of subtopics"
 prompt: |+
     The following is a list of subtopics relating to microbiology:
     - Bacteriology
