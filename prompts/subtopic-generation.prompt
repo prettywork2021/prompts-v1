@@ -28,7 +28,7 @@ prompt: |+
     ###
     The following is a list of subtopics relating to <1>:
     <2>-
-engine: "davinci"
+engine: "ada"
 temperature: 0.8
 max-tokens: 60
 top-p: 1
