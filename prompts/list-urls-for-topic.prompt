@@ -42,5 +42,5 @@ filter: no
 stitch-max: 0
 needs-work: no
 # Prompt function aliases
-# aliases:
+aliases:
 - "google search"
