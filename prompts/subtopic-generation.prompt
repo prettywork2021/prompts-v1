@@ -54,3 +54,4 @@ examples:
 # External provides an alternate script that performs the same function
 # external:
 # - "extract-keyphrases"
+postprocessor: "sed 's/- //'"
