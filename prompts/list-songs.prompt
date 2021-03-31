@@ -67,4 +67,4 @@ needs-work: no
 # Prompt function aliases
 # aliases:
 # - "asktutor"
-postprocessor: "sed s/- //"
+postprocessor: "sed 's/- //'"
