@@ -43,4 +43,4 @@ stitch-max: 0
 needs-work: no
 # Prompt function aliases
 # aliases:
-# - "asktutor"
+- "google search"
