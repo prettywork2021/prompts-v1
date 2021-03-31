@@ -30,7 +30,7 @@ prompt: |+
     <2>-
 engine: "ada"
 temperature: 0.8
-max-tokens: 60
+max-tokens: 200
 top-p: 1
 frequency-penalty: 0.8
 presence-penalty: 0.0
