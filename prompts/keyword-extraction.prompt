@@ -1,7 +1,9 @@
 title: "keyword extraction"
 prompt: |+
-    Text: <1>
-    
+    Text:
+    ###
+    <1>
+    ###
     Keywords:
 engine: "davinci"
 temperature: 0.3
@@ -17,6 +19,9 @@ inject-restart-text: yes
 show-probabilities: off
 vars:
 - "text"
+preprocessors:
+# A preprocessor filters the var at that position
+- "cat"
 # External provides an alternate script that performs the same function
 external:
 - "extract-keyphrases"
