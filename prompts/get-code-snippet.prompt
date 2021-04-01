@@ -1,5 +1,8 @@
 title: "Get code snippet"
-future-title: "Get code snippet"
+future-titles:
+- "Get code snippet"
+# Any language
+- "Get snippet"
 doc: ""
 prompt: |+
     contents
