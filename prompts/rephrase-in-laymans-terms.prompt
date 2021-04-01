@@ -1,0 +1,31 @@
+title: "rephrase in layman's terms"
+prompt: |+
+  A man asked me what this passage means:
+  ###
+  <1>
+  ###
+  I rephrased it layman's terms:
+  ###
+engine: "davinci"
+temperature: 0.6
+max-tokens: 100
+top-p: 1
+frequency-penalty: 0.2
+presence-penalty: 0.2
+best-of: 1
+stop-sequences:
+  - "###"
+  # Unfortunately, this doesn't work yet
+  # Multiple --stop arguments to openai override the previous
+  # - "\n\n"
+inject-start-text: yes
+inject-restart-text: yes
+show-probabilities: off
+chomp-start: on
+chomp-end: on
+vars:
+  - "passage"
+# External provides an alternate script that performs the same function
+external:
+- "summarize-passage"
+filter: yes
