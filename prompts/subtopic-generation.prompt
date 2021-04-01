@@ -36,7 +36,7 @@ prompt: |+
     - masked language modelling
     - gext generation
     ###
-    20 subtopics relating to <1>:
+    20 topics in <1>:
     <2>-
 engine: "davinci"
 temperature: 0.8
