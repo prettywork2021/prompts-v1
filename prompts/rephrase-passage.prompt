@@ -35,6 +35,9 @@ chomp-start: on
 chomp-end: on
 vars:
   - "passage"
+examples:
+  - "If you are a developer you might have a favorite IDE that you always use. And it is really easy if you can
+develop software from different languages on top of the same IDE that you like."
 # External provides an alternate script that performs the same function
 external:
 - "summarize-passage"
