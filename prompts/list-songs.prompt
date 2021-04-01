@@ -29,7 +29,7 @@ prompt: |+
     <1>
     Track list:
     -
-engine: "ada"
+engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
 # Use 0.3-0.8
