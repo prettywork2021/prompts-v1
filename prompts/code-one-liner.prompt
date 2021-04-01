@@ -3,6 +3,7 @@ future-titles:
 - "Get code snippet"
 # Any language
 - "Get snippet"
+future: "get-code-snippet.prompt"
 doc: "Get a bash one liner from natural langauge"
 prompt: |+
     Language: Ruby
