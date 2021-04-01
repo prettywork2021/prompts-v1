@@ -30,9 +30,10 @@ vars:
 examples:
   - "If you are a developer you might have a favorite IDE that you always use. And it is really easy if you can
 develop software from different languages on top of the same IDE that you like."
-# This is an elisp String->String function
+# These are elisp String->String functions and run from pen.el
+# It probably runs earlier than the preprocessors shell scripts
 pen-preprocessors:
-- "cat"
+- "pen-pf-correct-grammar"
 # External provides an alternate script that performs the same function
 external:
 - "summarize-passage"
