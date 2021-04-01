@@ -1,7 +1,6 @@
 title: "keyword extraction"
 prompt: |+
     Text:
-    ###
     <1>
     ###
     Keywords:
@@ -20,6 +19,7 @@ show-probabilities: off
 vars:
 - "text"
 # A preprocessor filters the var at that position
+# This may be useful to distinguish a block of text, for example
 preprocessors:
 - "cat"
 # External provides an alternate script that performs the same function
