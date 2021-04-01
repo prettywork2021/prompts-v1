@@ -1,13 +1,23 @@
-title: "rephrase in layman's terms"
+title: "rephrase a passage"
 prompt: |+
-  The following passage was too difficult to understand:
+  Given a passage of text, express it in a different way.
+
+  Here is a passage of text:
+  ###
+  The new cat treat has a 90-plus palatability level.
+  ###
+  In other words:
+  ###
+  cats like it
+  ###
+  Here is a passage of text:
   ###
   <1>
   ###
-  I rephrased it to make it clearer:
+  In other words:
   ###
-engine: "davinci"
-temperature: 0.6
+engine: "davinyci"
+temperature: 0.8
 max-tokens: 100
 top-p: 1
 frequency-penalty: 0.2
