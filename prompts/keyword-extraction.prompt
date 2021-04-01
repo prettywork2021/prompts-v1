@@ -19,8 +19,8 @@ inject-restart-text: yes
 show-probabilities: off
 vars:
 - "text"
-preprocessors:
 # A preprocessor filters the var at that position
+preprocessors:
 - "cat"
 # External provides an alternate script that performs the same function
 external:
