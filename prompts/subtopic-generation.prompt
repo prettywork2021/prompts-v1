@@ -65,6 +65,6 @@ examples:
 # External provides an alternate script that performs the same function
 # external:
 # - "extract-keyphrases"
-postprocessor: "sed '/^- /s/- //p' | sed -n '/^[a-zA-Z0-9 _-]\\+$/p' | uniqnosort"
+postprocessor: "sed '/^- /s/- //p' | sed -n '/^[^-][a-zA-Z0-9 _-]\\+$/p' | uniqnosort"
 # Run it n times and combine the output
 n-collate: 2
