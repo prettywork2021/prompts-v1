@@ -1,7 +1,18 @@
 title: "subtopic generation"
 doc: "Given a topic, generate a list of subtopics"
 prompt: |+
-    The following is a list of 8 subtopics relating to microbiology:
+    Given a topic and a number, generate a list of subtopics:
+
+    ###
+    7 subtopics of natural language processing / NLP:
+    - language modelling
+    - named entity recognition  
+    - sequence classification
+    - summarization
+    - text generation
+    - topic modelling
+    - translation
+    8 subtopics relating to microbiology:
     - Bacteriology
     - Mycology
     - Protozoology
@@ -11,22 +22,20 @@ prompt: |+
     - Virology
     - Nematology
     ###
-    The following is a list of 8 subtopics relating to natural language processing / NLP:
-    - extractive question answering
-    - language modelling
-    - named entity recognition  
-    - sequence classification
-    - summarization
-    - text generation
-    - topic modelling
-    - translation
+    6 subtopics of music theory:
+    - composition
+    - performance
+    - orchestration
+    - ornamentation
+    - improvisation
+    - electronic sound productio
     ###
-    The following is a list of 3 subtopics relating to language modelling in NLP:
+    3 subtopics relating to language modelling in NLP:
     - casual language modelling
     - masked language modelling
     - gext generation
     ###
-    The following is a list of subtopics relating to <1>:
+    20 subtopics relating to <1>:
     <2>-
 engine: "davinci"
 temperature: 0.8
