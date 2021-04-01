@@ -4,7 +4,7 @@ prompt: |+
     Given a topic and a number, generate a list of subtopics:
 
     ###
-    7 topics in natural language processing / NLP:
+    7 subtopics of natural language processing / NLP:
     - language modelling
     - named entity recognition  
     - sequence classification
@@ -13,7 +13,7 @@ prompt: |+
     - topic modelling
     - translation
     ###
-    8 topics in microbiology:
+    8 subtopics of microbiology:
     - Bacteriology
     - Mycology
     - Protozoology
@@ -23,7 +23,7 @@ prompt: |+
     - Virology
     - Nematology
     ###
-    6 topics in music theory:
+    6 subtopics of music theory:
     - composition
     - performance
     - orchestration
@@ -31,12 +31,12 @@ prompt: |+
     - improvisation
     - electronic sound production
     ###
-    3 topics in language modelling in NLP:
+    3 subtopics of language modelling in NLP:
     - casual language modelling
     - masked language modelling
     - gext generation
     ###
-    20 topics in <1>:
+    20 subtopics of <1>:
     <2>-
 engine: "davinci"
 temperature: 0.8
