@@ -6,6 +6,7 @@ prompt: |+
     Contents:
     <2>
 engine: "davinci"
+can-complete: on
 temperature: 0.3
 max-tokens: 200
 top-p: 1.0
