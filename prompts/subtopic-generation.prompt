@@ -1,7 +1,7 @@
 title: "subtopic generation"
 doc: "Given a topic, generate a list of subtopics"
 prompt: |+
-    Given a topic and a number, generate a list of subtopics:
+    List a number of subtopics given a topic:
 
     ###
     7 subtopics of natural language processing / NLP:
