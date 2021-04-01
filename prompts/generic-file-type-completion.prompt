@@ -6,7 +6,6 @@ prompt: |+
     Contents:
     <2>
 engine: "davinci"
-can-complete: on
 temperature: 0.3
 max-tokens: 200
 top-p: 1.0
@@ -26,6 +25,12 @@ vars:
 examples:
 - "python"
 - ""
+completion: on
+# default values for pen -- evaled
+# This is useful for completion commands.
+pen-defaults:
+- "(detect-language)"
+- "(pen-preceding-text)"
 external: ""
 conversation-mode: no
 filter: no
