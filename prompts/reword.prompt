@@ -2,6 +2,7 @@ title: "In other words"
 doc: "Reword"
 aims: |+
     - More abstractive rewording
+prompt-version: 1
 prompt: |+
     Original text:
     ###
