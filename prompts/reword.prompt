@@ -45,11 +45,9 @@ show-probabilities: off
 # Cache the function by default when running the prompt function
 cache: on
 vars:
-- "former"
-- "latter"
+- "text"
 examples:
-- "boysenberries"
-- "strawberries"
+- "I just wanted to say that I love you."
 # completion: on
 # # default values for pen -- evaled
 # # This is useful for completion commands.
