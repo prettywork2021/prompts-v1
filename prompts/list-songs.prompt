@@ -29,7 +29,6 @@ prompt: |+
     20 songs. <1>
     Track list:
     -
-# 
 engine: "myrc"
 preferred-openai-engine: "davinci"
 # 0.0 = /r/hadastroke
