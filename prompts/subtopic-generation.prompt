@@ -1,7 +1,7 @@
 title: "subtopic generation"
 doc: "Given a topic, generate a list of subtopics"
 prompt: |+
-    List a number of subtopics given a topic:
+    List a number of subtopics or fields of study given a topic:
 
     ###
     7 subtopics of natural language processing / NLP:
@@ -13,7 +13,7 @@ prompt: |+
     - topic modelling
     - translation
     ###
-    8 subtopics of microbiology:
+    8 fields of microbiology:
     - Bacteriology
     - Mycology
     - Protozoology
