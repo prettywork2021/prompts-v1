@@ -66,3 +66,5 @@ examples:
 # external:
 # - "extract-keyphrases"
 postprocessor: "sed '/^- /s/- //p' | sed -n '/^[a-zA-Z0-9 _-]\\+$/p' | uniqnosort"
+# Run it n times and combine the output
+n-collate: 2
