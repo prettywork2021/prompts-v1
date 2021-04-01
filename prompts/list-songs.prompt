@@ -4,7 +4,7 @@ prompt: |+
     Given the title of a band or an album, list some popular songs.
 
     ###
-    Red Hot Chili Peppers
+    6 songs by Red Hot Chili Peppers
     Track list:
     - Under the Bridge
     - Dani California
@@ -13,20 +13,20 @@ prompt: |+
     - Higher Ground
     - Tell Me Baby
     ###
-    Nirvana, Bleach
+    4 songs. Nirvana, Bleach
     Track list:
     - Love Buzz
     - Blew
     - School
     - Mr Moustache
     ###
-    Dark side of the moon
+    3 songs. Dark side of the moon
     Track list:
     - Money
     - Time
     - The Great Gig in the Sky
     ###
-    <1>
+    20 songs. <1>
     Track list:
     -
 engine: "davinci"
