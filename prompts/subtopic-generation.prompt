@@ -55,4 +55,4 @@ examples:
 # External provides an alternate script that performs the same function
 # external:
 # - "extract-keyphrases"
-postprocessor: "sed '/^- /s/- //p' | uniqnosort"
+postprocessor: "sed '/^- /s/- //p' | sed -n '/^[a-zA-Z0-9 _-]\+$/p' | uniqnosort"
