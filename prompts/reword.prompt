@@ -74,11 +74,3 @@ needs-work: no
 aliases:
 - "paraphrase"
 # postprocessor: "sed 's/- //' | uniqnosort"
-
-Okay… so let me get you into what I’m talking about here. If you have ever worked with an IDE for programming languages
-like Java, C# you have probably experience that how easy it is to write program with auto-completion feature ( some might
-know it as intellisense ) provided by the IDE which help you to type code faster and select suitable functions to
-complete your task, or find the usage of the particular function, or go to the implementation of a function just by
-clicking on it or rename a method safely without having to change everywhere it is used, by yourself. As most of the IDEs
-support multiple languages these language features are injected into the IDE via the language plugin which is written by
-the language developers or IDE developers (or whoever love that language).
