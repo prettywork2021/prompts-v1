@@ -16,7 +16,7 @@ prompt: |+
   ###
   In other words:
   ###
-engine: "davinyci"
+engine: "davinci"
 temperature: 0.8
 max-tokens: 100
 top-p: 1
