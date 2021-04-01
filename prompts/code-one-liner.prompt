@@ -1,4 +1,8 @@
 title: "generic one liner generator from natural language"
+future-titles:
+- "Get code snippet"
+# Any language
+- "Get snippet"
 doc: "Get a bash one liner from natural langauge"
 prompt: |+
     Language: Ruby
