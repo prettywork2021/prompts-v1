@@ -1,20 +1,12 @@
 title: "rephrase a passage"
 prompt: |+
-  Given a passage of text, express it in a different way.
+  Rewrite each passage of text, expressing it in a different way.
 
-  Here is a passage of text:
-  ###
-  The new cat treat has a 90-plus palatability level.
-  ###
-  In other words:
-  ###
-  cats like it
-  ###
   Here is a passage of text:
   ###
   <1>
   ###
-  In other words:
+  Here is the same passage expressed differently:
   ###
 engine: "davinci"
 temperature: 0.8
