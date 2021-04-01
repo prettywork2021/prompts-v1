@@ -67,4 +67,4 @@ needs-work: no
 # Prompt function aliases
 # aliases:
 # - "asktutor"
-postprocessor: "sed 's/- //'"
+postprocessor: "sed '/^- /s/- //p' | sed '/^-/d' | sed -n '/^[a-zA-Z0-9 _-]\\+$/p' | uniqnosort"
