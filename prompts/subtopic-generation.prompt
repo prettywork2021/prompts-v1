@@ -38,7 +38,8 @@ prompt: |+
     ###
     20 subtopics or fields within <1>:
     <2>-
-engine: "davinci"
+engine: "myrc"
+preferred-openai-engine: "davinci"
 temperature: 0.8
 max-tokens: 200
 top-p: 1
