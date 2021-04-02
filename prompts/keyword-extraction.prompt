@@ -17,7 +17,7 @@ inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
 vars:
-- "text"
+  - "text"
 examples:
   - |-
     GPT-3 showed that language can be used to instruct a large neural network
