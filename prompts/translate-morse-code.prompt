@@ -1,5 +1,5 @@
 title: "Translate morse code to English"
-prompt-version: 1
+prompt-version: 2
 prompt: |+
   Morse code.
 
