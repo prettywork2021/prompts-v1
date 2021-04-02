@@ -46,7 +46,7 @@ cache: on
 vars:
 - "description"
 examples:
-- ""
+- "the artform with an irrational juxtaposition of images"
 # completion: on
 # # default values for pen -- evaled
 # # This is useful for completion commands.
