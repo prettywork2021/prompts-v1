@@ -15,7 +15,7 @@ prompt: |+
     A list of fruit starting with E:
     Evergreen Huckleberry,Entawak,Elderberry,Eggfruit
     ###
-    <1> <2> starting with <3>
+    A list of <1>:
 engine: "davinci"
 temperature: 0.7
 max-tokens: 60
