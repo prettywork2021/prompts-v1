@@ -13,7 +13,11 @@ prompt: |+
     ${2:contents}
     
     <1> are like <2> in that
+# myrc will select the completion engine using my config.
+# This may be openi-complete or something else
 engine: "myrc"
+# if nothing is selected in myrc and openapi-complete is used
+# by default, then openai should select this engine.
 preferred-openai-engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
@@ -68,6 +72,7 @@ filter: no
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
 stitch-max: 0
 needs-work: no
+n-test-runs: 5
 # Prompt function aliases
 # aliases:
 # - "asktutor"
