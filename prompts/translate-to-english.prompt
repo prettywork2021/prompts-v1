@@ -1,4 +1,5 @@
 title: "Translate to English"
+prompt-version: 1
 doc: "This prompt translates text in any world langauge to English"
 prompt: |+
     English translation.
@@ -15,8 +16,8 @@ prompt: |+
     <1>
     English:
 engine: "davinci"
-temperature: 0.3
-max-tokens: 60
+temperature: 0.5
+max-tokens: 200
 top-p: 1.0
 frequency-penalty: 0.5
 # If I make presence-penalty 0 then it will get very terse
