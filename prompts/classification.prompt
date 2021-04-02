@@ -1,4 +1,5 @@
 title: "classification of item"
+prompt-version: 1
 description: "Classify items into categories via example"
 prompt: |+
     The following is a list of companies and the categories they fall into
@@ -24,4 +25,4 @@ show-probabilities: off
 vars:
 - "item to classify"
 examples:
-- "Cat"
+- "cat"
