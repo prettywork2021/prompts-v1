@@ -31,6 +31,8 @@ prompt: |+
 
     Q: <1>
     A:
+# Remove trailing whitespace from prompt
+prompt-filter: "sed -z 's/\\s\\+$//'"
 engine: "davinci"
 temperature: 0.3
 max-tokens: 60
