@@ -1,4 +1,5 @@
 title: "English to French"
+prompt-version: 1
 prompt: |+
     Translate to French.
 
