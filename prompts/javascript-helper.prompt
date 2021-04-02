@@ -2,7 +2,6 @@ title: "JavaScript chatbot"
 prompt: |+
     JavaScript chatbot
     
-    
     You: How do I combine arrays?
     JavaScript chatbot: You can use the concat() method.
     You: How do make an alert appear after 10 seconds?
