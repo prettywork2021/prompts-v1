@@ -24,3 +24,4 @@ vars:
 - "mood"
 examples:
 - "a blue sky at dusk"
+n-test-runs: 2
