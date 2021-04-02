@@ -1,5 +1,5 @@
 title: "English to French"
-prompt-version: 1
+prompt-version: 2
 prompt: |+
     Translate to French.
 
@@ -23,7 +23,7 @@ frequency-penalty: 0.0
 presence-penalty: 0.0
 best-of: 1
 stop-sequences:
-- "\n\n"
+- "###"
 inject-start-text: "\n"
 inject-restart-text: "\n"
 show-probabilities: off
