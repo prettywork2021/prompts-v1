@@ -47,6 +47,7 @@ vars:
 - "description"
 examples:
 - "the artform with an irrational juxtaposition of images"
+# the current implementation of preprocessors is kinda slow
 preprocessors:
 # lowecase first letter
 - "sed -e \"s/\\b\\(.\\)/\\l\\1/g\""
