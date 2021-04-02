@@ -5,6 +5,7 @@
 # expand-env: ((yas-indent-line 'fixed))
 # --
 title: "${1:title}"
+# future-titles: ""
 doc: "Given ... ${1:title}"
 # aims: |+
 # - More abstractive rewording
