@@ -1,4 +1,5 @@
 title: "keyword extraction"
+prompt-version: 1
 prompt: |+
     Text:
     <1>
