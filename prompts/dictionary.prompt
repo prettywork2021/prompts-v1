@@ -47,6 +47,8 @@ vars:
 - "word"
 examples:
 - "boysenberry"
+# Completion is for generating a company-mode completion function
+completion: on
 external: ""
 conversation-mode: no
 filter: no
