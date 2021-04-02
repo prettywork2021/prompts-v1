@@ -1,4 +1,5 @@
 title: "correct grammar 2"
+prompt-version: 1
 prompt: |+
     Input: Anna and Mike is going skiing.
     Output: Anna and Mike are going skiing.
