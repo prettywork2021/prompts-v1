@@ -23,3 +23,5 @@ inject-restart-text: yes
 show-probabilities: off
 vars:
 - "item to classify"
+examples:
+- "Cat"
