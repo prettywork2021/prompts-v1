@@ -1,4 +1,5 @@
 title: "web search"
+prompt-version: 1
 prompt: |+
     web search
 
