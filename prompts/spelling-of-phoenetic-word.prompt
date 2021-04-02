@@ -1,19 +1,21 @@
 title: "Correct spelling for word"
 doc: "Find the correct spelling of a word"
 prompt: |+
-    Give the correct spelling, given what it sounds like.
+    Correct the spelling of these badly spelled words.
 
-    eye phone sounds like iphone
+    "eye phone" should be iphone
     ###    borgwah sounds like bourgeois
-    borjwah sounds like bourgeois
+    "borjwah" should be bourgeois
     ###
-    crative sounds like creative
+    "crative" should be creative
     ###
-    crusont sounds like croissant
+    "crusont" should be croissant
     ###
-    crassont sounds like croissant
+    "crassont should be croissant
     ###
-    <1> sounds like
+    "seennees art" should be sienese art
+    ###
+    "<1>" should be
 engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
