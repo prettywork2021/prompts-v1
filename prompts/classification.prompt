@@ -13,7 +13,7 @@ prompt: |+
     Mcdonalds: Food, Fast Food, Logistics, Restaurants
     <1>:
 engine: "davinci"
-temperature: 0.5
+temperature: 0.3
 max-tokens: 6
 top-p: 1.0
 frequency-penalty: 0.0
