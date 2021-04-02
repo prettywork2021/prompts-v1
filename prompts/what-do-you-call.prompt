@@ -4,11 +4,19 @@ doc: "What's the word for... What do you call a..."
 # - More abstractive rewording
 prompt-version: 2
 prompt: |+
-    contents
+  Here is a glossary of terms.
 
-    What do you call a story by a suspect in a crime?
-    
-    <1> are like <2> in that
+  Definition: the thing you hang on your door at christmas
+  Term: wreath
+  ###
+  Definition: a large whirlpool?
+  Term: maelstrom
+  ###
+  Definition: the other popular cola brand (not coke)
+  Term: Pepsi
+  ###
+  Definition: <1>
+  Term:
 engine: "myrc"
 preferred-openai-engine: "davinci"
 # 0.0 = /r/hadastroke
