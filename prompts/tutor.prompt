@@ -1,4 +1,5 @@
 title: "Generic tutor for any topic"
+prompt-version: 1
 prompt: |+
     This is a conversation between a human and a brilliant AI.
     The topic is "<1>".
