@@ -1,5 +1,5 @@
 title: "classification of item"
-prompt-version: 2
+prompt-version: 3
 description: "Classify items into categories via example"
 prompt: |+
     The following is a list of companies and the categories they fall into
