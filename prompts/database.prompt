@@ -1,5 +1,5 @@
 title: "database example"
-prompt-version: 1
+prompt-version: 2
 doc: "GPT-3 as a NL interface for semantically querying logic in prose"
 prompt: |+
     The database begins knowing nothing.
@@ -43,6 +43,8 @@ stop-sequences:
 - "\n\n"
 inject-start-text: yes
 inject-restart-text: yes
+chomp-start: on
+chomp-end: off
 show-probabilities: off
 vars:
 - "query or input"
