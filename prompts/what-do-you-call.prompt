@@ -6,6 +6,7 @@ prompt-version: 2
 prompt: |+
   Here is a glossary of terms.
 
+  ###
   Definition: the thing you hang on your door at christmas
   Term: wreath
   ###
