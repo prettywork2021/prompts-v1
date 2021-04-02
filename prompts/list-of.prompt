@@ -1,20 +1,19 @@
 title: "Ship came into harbour carrying several X"
 doc: "List a bunch of a type of thing"
 prompt: |+
+    Here are some lists of things:
+
     A list of countries in no particular order:
     Myanmar,Finland,American Samoa,Belgium,Vanuatu,Sudan,Israel,Ecuador
     ###
     A list of car manufacturers in no particular order:
     Fiat,Corvette,Holden,Daewoo,Hyundai,BMW,Ford,Mazda,Toyota
     ###
-    A list of islands starting with N
+    A list of islands starting with N:
     New Britain,Naart,Nukumanu,Nærøya,Nikumaroro,Nagy-Pandúr-sziget,Neuwerk
     ###
-    4 fruit starting with E
+    A list of fruit starting with E:
     Evergreen Huckleberry,Entawak,Elderberry,Eggfruit
-    ###
-    6 clothing brands starting with CC & M
-    Croft,Caliwoods,Contare,Calvin Klein,Charles Viancin,Costume National
     ###
     <1> <2> starting with <3>
 engine: "davinci"
