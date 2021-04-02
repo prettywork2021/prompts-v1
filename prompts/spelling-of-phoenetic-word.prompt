@@ -57,6 +57,7 @@ chomp-start: on
 chomp-end: off
 external: ""
 conversation-mode: no
+n-test-runs: 2
 filter: no
 # Keep stitching together until reaching this limit
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
