@@ -42,6 +42,8 @@ stop-sequences:
 - "\n\n"
 inject-start-text: yes
 inject-restart-text: yes
+chomp-start: on
+chomp-end: off
 show-probabilities: off
 vars:
 - "word"
