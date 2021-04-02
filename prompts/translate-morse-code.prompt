@@ -29,6 +29,8 @@ vars:
 - "morse"
 examples:
 - "... --- ..."
-external: ""
+chomp-start: on
+chomp-end: off
+prefer-external: on
 filter: no
 stitch-max: 0
