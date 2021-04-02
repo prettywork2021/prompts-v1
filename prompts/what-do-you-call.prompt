@@ -47,6 +47,9 @@ vars:
 - "description"
 examples:
 - "the artform with an irrational juxtaposition of images"
+preprocessors:
+# lowecase first letter
+- "sed -e \"s/\\b\\(.\\)/\\l\\1/g\""
 # completion: on
 # # default values for pen -- evaled
 # # This is useful for completion commands.
