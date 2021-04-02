@@ -10,6 +10,7 @@ prompt: |+
   English: I love you.
   ###
   Morse: <1>
+  English:
 engine: "davinci"
 temperature: 0.3
 max-tokens: 60
