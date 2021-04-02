@@ -1,4 +1,5 @@
 title: "X is like Y in that Z"
+prompt-version: 1
 prompt: |+
     Neural networks are like genetic algorithms in that both are systems that learn from experience.
     

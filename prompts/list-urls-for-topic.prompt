@@ -1,5 +1,6 @@
 title: "Search the web for relevant links to do with topic"
-doc: ""
+prompt-version: 1
+doc: "This is like google search"
 prompt: |+
     Google search results:
 
