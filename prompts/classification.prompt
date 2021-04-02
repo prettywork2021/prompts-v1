@@ -7,6 +7,7 @@ prompt: |+
     Facebook: Social media, Technology
     LinkedIn: Social media, Technology, Enterprise, Careers
     Uber: Transportation, Technology, Marketplace
+    cat: animal, mammal
     Unilever: Conglomerate, Consumer Goods
     Mcdonalds: Food, Fast Food, Logistics, Restaurants
     <1>:
@@ -27,4 +28,4 @@ show-probabilities: off
 vars:
 - "item to classify"
 examples:
-- "cat"
+- "whale"
