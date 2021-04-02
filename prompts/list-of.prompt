@@ -1,13 +1,13 @@
 title: "Ship came into harbour carrying several X"
-doc: ""
+doc: "List a bunch of a type of thing"
 prompt: |+
-    8 countries starting with A
-    American Samoa,Armenia,Australia,Afghanistan,Albania,Andorra,Angola,Argentina
+    A list of countries in no particular order:
+    Myanmar,Finland,American Samoa,Belgium,Vanuatu,Sudan,Israel,Ecuador
     ###
-    3 car brands starting with H
-    Holden,Hyundai,Honda
+    A list of car manufacturers in no particular order:
+    Fiat,Corvette,Holden,Daewoo,Hyundai,BMW,Ford,Mazda,Toyota
     ###
-    7 islands starting with N
+    A list of islands starting with N
     New Britain,Naart,Nukumanu,Nærøya,Nikumaroro,Nagy-Pandúr-sziget,Neuwerk
     ###
     4 fruit starting with E
