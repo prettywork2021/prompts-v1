@@ -1,4 +1,5 @@
 title: "Correct English spelling and grammar"
+prompt-version: 1
 doc: "Given a sentence which may have incorrect spelling or grammar, correct it."
 prompt: |+
     Poor English: Please provide me with a short brief of the design you’re looking for and that’d be nice if you could share some examples or project you did before.
@@ -38,3 +39,4 @@ filter: no
 # Keep stitching together until reaching this limit
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
 stitch-max: 0
+n-test-runs: 2
