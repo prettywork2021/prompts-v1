@@ -62,6 +62,8 @@ prefer-external: on
 external: ""
 conversation-mode: no
 filter: no
+# Default is 1. Collate multiple executions of the prompt within test results
+n-test-runs: 1
 # Keep stitching together until reaching this limit
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
 stitch-max: 0
