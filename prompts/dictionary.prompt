@@ -1,5 +1,6 @@
 title: "define word"
-doc: "Get the definition of a word."
+prompt-version: 1
+doc: "Get a short definition of a term."
 prompt: |+
     Glossary of terms.
 
