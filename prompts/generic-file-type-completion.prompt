@@ -1,4 +1,5 @@
 title: "Generic file type completion"
+prompt-version: 1
 doc: |-
     This is a generic completer for emacs.
 prompt: |+
