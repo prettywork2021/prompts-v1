@@ -47,11 +47,9 @@ show-probabilities: off
 # Cache the function by default when running the prompt function
 cache: on
 vars:
-- "former"
-- "latter"
+- "query"
 examples:
-- "boysenberries"
-- "strawberries"
+- "artificial intelligence"
 chomp-start: on
 chomp-end: off
 prefer-external: on
