@@ -31,9 +31,10 @@ prompt: |+
 
     Q: <1>
     A:
-# Remove trailing whitespace from prompt
-# This is the default
-prompt-filter: "sed -z 's/\\s\\+$//'"
+# # Additional transformation of prompt after the template
+# prompt-filter: "sed -z 's/\\s\\+$//'"
+# # Trailing whitespace is always removed
+# prompt-remove-trailing-whitespace: on
 engine: "davinci"
 temperature: 0.3
 max-tokens: 60
