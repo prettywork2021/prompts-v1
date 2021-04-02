@@ -28,4 +28,5 @@ vars:
 # External provides an alternate script that performs the same function
 external:
 - "summarize-passage"
+# Replace selected text
 filter: yes
