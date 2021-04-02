@@ -2,7 +2,7 @@ title: "Reverse dictionary -- "
 doc: "What's the word for... What do you call a..."
 # aims: |+
 # - More abstractive rewording
-prompt-version: 2
+prompt-version: 3
 prompt: |+
   Here is a glossary of terms.
 
