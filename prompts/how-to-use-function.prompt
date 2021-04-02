@@ -1,8 +1,22 @@
 title: "How to use a function"
-doc: ""
+doc: "Given a function name and a language, explain how to use the function"
 prompt: |+
-    contents
-    
+    Given a function name and a language, explain how to use the function.
+
+    ###
+    Language: Python
+    Function: print
+    Usage:
+    Print("hello world")
+    ###
+    Language: Python
+    Function: print
+    Usage:
+    Print("hello world")
+    ###
+    Language: <1>
+    Function:
+    Function
     <1> are like <2> in that
 engine: "myrc"
 preferred-openai-engine: "davinci"
@@ -27,8 +41,8 @@ show-probabilities: off
 # Cache the function by default when running the prompt function
 cache: on
 vars:
-- "former"
-- "latter"
+- "language"
+- "function name"
 examples:
 - "boysenberries"
 - "strawberries"
