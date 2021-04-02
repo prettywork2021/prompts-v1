@@ -32,6 +32,7 @@ prompt: |+
     Q: <1>
     A:
 # Remove trailing whitespace from prompt
+# This is the default
 prompt-filter: "sed -z 's/\\s\\+$//'"
 engine: "davinci"
 temperature: 0.3
