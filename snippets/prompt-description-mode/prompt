@@ -6,6 +6,8 @@
 # --
 title: "${1:title}"
 # future-titles: ""
+# aims: |+
+# - More abstractive rewording
 doc: "Given ... ${1:title}"
 # aims: |+
 # - More abstractive rewording
