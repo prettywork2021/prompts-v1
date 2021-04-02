@@ -33,3 +33,6 @@ show-probabilities: off
 vars:
   - "former"
   - "latter"
+examples:
+  - "Age of Empires"
+  - "Warcraft"
