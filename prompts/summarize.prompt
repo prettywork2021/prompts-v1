@@ -24,7 +24,13 @@ show-probabilities: off
 chomp-start: on
 chomp-end: on
 vars:
-  - "passage"
+- "passage"
+examples:
+- |-
+    This week CrowdScience investigates the information superhighway connecting mind with body. The Vagus nerve is part of
+    our parasympathetic nervous system, delivering information from all our major organs to the brain stem, and stimulating
+    it can help us switch off our fight or flight response and calm us down. But listener Mags wants to know what science
+    says about its impact on our general wellbeing?
 # External provides an alternate script that performs the same function
 external:
 - "summarize-passage"
