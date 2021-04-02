@@ -8,7 +8,7 @@ prompt: |+
     Facebook: Social media, Technology
     LinkedIn: Social media, Technology, Enterprise, Careers
     Uber: Transportation, Technology, Marketplace
-    cat: animal, domestic, mammal
+    cat: domesticated animal, mammal
     Unilever: Conglomerate, Consumer Goods
     Mcdonalds: Food, Fast Food, Logistics, Restaurants
     <1>:
