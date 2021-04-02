@@ -23,10 +23,8 @@ presence-penalty: 0.0
 best-of: 1
 stop-sequences:
 - "\n\n"
-inject-start-text:
-- "\n"
-inject-restart-text:
-- "\n"
+inject-start-text: "\n"
+inject-restart-text: "\n"
 show-probabilities: off
 vars:
 - "english prose"
