@@ -5,7 +5,7 @@ doc: |-
 prompt: |+
     <1> No, you could not be more wrong
 engine: "davinci"
-# TODO preprocess -- ensure the last sentence ends with a full stop
+
 temperature: 0.8
 max-tokens: 200
 top-p: 1.0
@@ -21,6 +21,9 @@ inject-restart-text: yes
 show-probabilities: off
 vars:
 - "text"
+# Ensure the last sentence ends with a full stop
+preprocessors::
+- "sed -z -e 's/\\s\\+$//' -e 's/\\.$//' -e 's/$/./'"
 examples:
 - "Recycling is good for the world"
 # Completion is for generating a company-mode completion function
