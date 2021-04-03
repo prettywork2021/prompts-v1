@@ -1,4 +1,5 @@
 title: "friendly chat response"
+doc: "This is is how to respond in in a friendly way to some small talk"
 prompt: |+
     You: What have you been up to?
     Friend: Watching old movies.
@@ -21,3 +22,5 @@ show-probabilities: off
 conversation-mode: yes
 vars:
 - "question"
+examples:
+- "Have you had a good week?"
