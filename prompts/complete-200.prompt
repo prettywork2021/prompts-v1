@@ -14,6 +14,7 @@ frequency-penalty: 0.5
 presence-penalty: 0.0
 best-of: 1
 cache: on
+# The input may have newlines in it, so I do a double newline
 stop-sequences:
 - "\n\n"
 inject-start-text: yes
