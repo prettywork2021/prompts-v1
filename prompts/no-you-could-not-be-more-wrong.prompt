@@ -27,7 +27,7 @@ preprocessors::
 examples:
 - "Recycling is good for the world"
 # Completion is for generating a company-mode completion function
-completion: on
+completion: off
 # default values for pen -- evaled
 # This is useful for completion commands.
 pen-defaults:
