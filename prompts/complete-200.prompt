@@ -20,7 +20,6 @@ inject-restart-text: yes
 show-probabilities: off
 vars:
 - "file type"
-- "preceding text"
 examples:
 - "python"
 - "# Let's say a triple (a, b, c) is a zigzag if\n# either a < b > c or a > b < c.\n\n# Given an array of integers numbers, your task\n# is to check all the triples of its consecutive\n# elements for being a zigzag.\n\n# More formally, your task is to construct an\n# array of length numbers.length - 2, where the\n# ith element of the output array equals 1 if\n# the triple (numbers[i], numbers[i + 1], numbers[i + 2]) is a zigzag, and 0 otherwise.\ndef"
