@@ -33,6 +33,8 @@ completion: off
 pen-defaults:
 - "(pen-preceding-text)"
 external: ""
+chomp-start: on
+chomp-end: off
 conversation-mode: no
 filter: no
 # Keep stitching together until reaching this limit
