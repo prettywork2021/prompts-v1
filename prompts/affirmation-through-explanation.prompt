@@ -17,7 +17,7 @@ presence-penalty: 0.0
 best-of: 1
 cache: on
 stop-sequences:
-- "\n"
+- "\n\n"
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
