@@ -5,7 +5,6 @@ doc: |-
 prompt: |+
     Someone said that <1> They could not have been more wrong. The truth is that
 engine: "davinci"
-
 temperature: 0.8
 max-tokens: 200
 top-p: 1.0
