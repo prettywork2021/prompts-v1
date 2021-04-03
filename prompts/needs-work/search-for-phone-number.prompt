@@ -11,12 +11,6 @@ prompt: |+
     Mayor Aaron Hawkins
     Mobile: 022 100 6634
     ###
-    McDonald's Dunedin North
-    Phone: 03-477 7774
-    ###
-    Mayor Aaron Hawkins
-    Mobile: 022 100 6634
-    ###
     <1>
     Mobile:
 engine: "davinci"
