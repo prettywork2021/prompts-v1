@@ -39,3 +39,4 @@ filter: no
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
 stitch-max: 0
 needs-work: no
+postprocessor: "ttp"
