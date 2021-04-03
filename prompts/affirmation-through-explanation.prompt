@@ -41,4 +41,4 @@ filter: no
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
 stitch-max: 0
 needs-work: no
-postprocessor: "sed -e 's/^- //' -e 's/^-//' | sed 's/^/- /' | uniqnosort | sed -z 's/^/\n/'"
+postprocessor: "sed -e 's/^- //' -e 's/^-//' | sed 's/^/- /' | uniqnosort | sed -z 's/^/\\n/'"
