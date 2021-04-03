@@ -3,7 +3,7 @@ prompt-version: 1
 doc: |-
     This is a generic completer.
 prompt: |+
-    It's not right that "<1>". In fact the opposite is true.
+    Did you say "<1>"!? You could not be more wrong. Here's why,
 engine: "davinci"
 temperature: 0.8
 max-tokens: 200
