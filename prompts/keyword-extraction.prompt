@@ -31,5 +31,4 @@ examples:
 # preprocessors:
 # - "cat"
 # External provides an alternate script that performs the same function
-external:
-- "extract-keyphrases"
+external: "extract-keyphrases"
