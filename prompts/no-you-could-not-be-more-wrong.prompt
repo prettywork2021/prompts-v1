@@ -22,8 +22,8 @@ show-probabilities: off
 vars:
 - "text"
 # Ensure the last sentence ends with a full stop
-preprocessors::
-- "sed -z -e 's/\\s\\+$//' -e 's/\\.$//' -e 's/$/./'"
+# preprocessors::
+# - "sed -z -e 's/\\s\\+$//' -e 's/\\.$//' -e 's/$/./'"
 examples:
 - "Recycling is good for the world"
 # Completion is for generating a company-mode completion function
