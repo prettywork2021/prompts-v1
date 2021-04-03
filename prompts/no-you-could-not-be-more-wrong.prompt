@@ -1,9 +1,11 @@
 title: "no, you could not be more wrong"
 prompt-version: 1
 doc: |-
-    This is a generic completer.
+    This is a completer that refutes what you just said.
 prompt: |+
-    Did you say "<1>"!? You could not be more wrong. Here's why,
+    The following is an excerpt of an argument on reddit:
+    ###
+    Your claim that "<1>" is so incorrect. Here's why,
 engine: "davinci"
 temperature: 0.8
 max-tokens: 200
