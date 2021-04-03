@@ -5,7 +5,8 @@ doc: |-
 prompt: |+
     The following is an excerpt of an argument on reddit:
     ###
-    Your claim that "<1>" is so incorrect. You could not be more wrong. Firstly,
+    Your claim that "<1>" is so incorrect. You could not be more wrong.
+    Firstly,
 engine: "davinci"
 temperature: 0.8
 max-tokens: 200
@@ -43,4 +44,4 @@ filter: no
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
 stitch-max: 0
 needs-work: no
-# postprocessor: "ttp"
+postprocessor: "ttp"
