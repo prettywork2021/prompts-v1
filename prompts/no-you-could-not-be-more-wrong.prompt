@@ -5,7 +5,7 @@ doc: |-
 prompt: |+
     The following is an excerpt of an argument on reddit:
     ###
-    Your claim that "<1>" is so incorrect. Here's why,
+    Your claim that "<1>" is so incorrect. You could not be more wrong. Firstly,
 engine: "davinci"
 temperature: 0.8
 max-tokens: 200
