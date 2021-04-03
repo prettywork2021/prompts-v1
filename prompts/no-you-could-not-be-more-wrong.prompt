@@ -3,7 +3,7 @@ prompt-version: 1
 doc: |-
     This is a generic completer.
 prompt: |+
-    <1> No, you could not be more wrong. It's the other way around.
+    Someone said that <1> They could not have been more wrong. The truth is that
 engine: "davinci"
 
 temperature: 0.8
