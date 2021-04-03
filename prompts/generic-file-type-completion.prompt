@@ -4,7 +4,7 @@ doc: |-
     This is a generic file-type completer for emacs.
 prompt: |+
     File type: <1>
-    Contents:
+    File contents:
     <2>
 engine: "davinci"
 temperature: 0.3
