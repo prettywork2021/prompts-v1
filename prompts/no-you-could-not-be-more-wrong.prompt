@@ -3,8 +3,9 @@ prompt-version: 1
 doc: |-
     This is a generic completer.
 prompt: |+
-    <1>, no, you could not be more wrong
+    <1> No, you could not be more wrong
 engine: "davinci"
+# TODO preprocess -- ensure the last sentence ends with a full stop
 temperature: 0.8
 max-tokens: 200
 top-p: 1.0
