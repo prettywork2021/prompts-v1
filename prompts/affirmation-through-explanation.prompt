@@ -3,7 +3,7 @@ prompt-version: 1
 doc: |-
     This is a generic completer.
 prompt: |+
-    I had to write down all the reasons why <1>.
+    I had to write down all the reasons why <1>
     This is my list:
     -
 engine: "davinci"
@@ -41,4 +41,4 @@ filter: no
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
 stitch-max: 0
 needs-work: no
-postprocessor: "ttp"
+postprocessor: "sed 's/^- //' | sed 's/^/- /'"
