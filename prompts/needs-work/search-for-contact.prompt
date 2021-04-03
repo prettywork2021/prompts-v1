@@ -8,22 +8,11 @@ prompt: |+
     Post: PO Box 5045, Dunedin 9054
     Email: dcc@dcc.govt.nz
     ###
-    Dunedin City Baptist Church
-    19 Main South Rd, Concord, Dunedin, 9018.
-    Phone (03) 488-4222
-    Email office@dcbc.co.nz
-    ###
     New Zealand Automobile Association
     Phone: 0800 500 444 
     Level 16, 99 Albert Street, Auckland 1010
     PO Box 5, Shortland Street, Auckland 1140
     Email: aatech@aa.co.nz
-    ###
-    Mayor Aaron Hawkins
-    Postal: PO Box 5045 Dunedin 9054
-    Phone: N/A
-    Mobile: 022 100 6634
-    Email address: mayor@dcc.govt.nz
     ###
     <1>
 engine: "davinci"
