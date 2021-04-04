@@ -4,7 +4,7 @@ title: "Very witty pick up lines for a topc"
 # - More abstractive rewording
 doc: "Given a topic, generate pick up lines, one at a time"
 # aims: |+
-# - More abstractive rewording
+# - Successful
 prompt-version: 1
 prompt: |+
     The following are witty openers for Tinder:
@@ -72,11 +72,8 @@ prompt: |+
     TOPIC: COFFEE
     - Do you like coffee? Cuz I like you a latte.
     ###
-    TOPIC: TECTONIC PLATES
+    TOPIC: <1>
     -
-    contents
-    
-    <1> are like <2> in that
 # # Additional transformation of prompt after the template
 # prompt-filter: "sed -z 's/\s\+$//'"
 # # Trailing whitespace is always removed
@@ -108,11 +105,9 @@ show-probabilities: off
 # Cache the function by default when running the prompt function
 cache: on
 vars:
-- "former"
-- "latter"
+- "topic"
 examples:
-- "boysenberries"
-- "strawberries"
+- "tectonic plates"
 # Completion is for generating a company-mode completion function
 # completion: on
 # # default values for pen -- evaled
@@ -123,7 +118,7 @@ examples:
 # These are elisp String->String functions and run from pen.el
 # It probably runs earlier than the preprocessors shell scripts
 pen-preprocessors:
-- "pen-pf-correct-grammar"
+- "tr '[:lower:]' '[:upper:]'"
 # # A preprocessor filters the var at that position
 # the current implementation of preprocessors is kinda slow and will add ~100ml per variable
 # # This may be useful to distinguish a block of text, for example
@@ -147,3 +142,5 @@ n-test-runs: 5
 # aliases:
 # - "asktutor"
 # postprocessor: "sed 's/- //' | uniqnosort"
+# Run it n times and combine the output
+n-collate: 10
