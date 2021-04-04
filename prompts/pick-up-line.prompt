@@ -41,7 +41,7 @@ top-p: 1.0
 frequency-penalty: 0.5
 # If I make presence-penalty 0 then it will get very terse
 presence-penalty: 0.0
-best-of: 1
+# This is generally expensive, but may be cheaper than sending the prompt every time
 stop-sequences:
 - "###"
 inject-start-text: yes
