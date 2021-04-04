@@ -21,6 +21,9 @@ prompt: |+
     What’s the difference between you and a psychologist?
     Are you an expert on human behavior?
     ###
+    TOPIC: COFFEE
+    You make my heart race like caffeine.
+    ###
     TOPIC: <1>
     OPENERS:
 engine: "davinci"
