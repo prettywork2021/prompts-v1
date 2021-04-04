@@ -144,3 +144,4 @@ n-test-runs: 5
 # postprocessor: "sed 's/- //' | uniqnosort"
 # Run it n times and combine the output
 n-collate: 10
+postprocessor: "awk 1"
