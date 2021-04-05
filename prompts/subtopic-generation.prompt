@@ -34,7 +34,7 @@ prompt: |+
     3 subtopics of language modelling in NLP:
     - casual language modelling
     - masked language modelling
-    - gext generation
+    - text generation
     ###
     20 subtopics or fields within <1>:
     <2>-
