@@ -6,7 +6,7 @@ doc: "Given a topic, generate pick up lines, one at a time"
 # aims: |+
 # - Successful
 past-versions:
-  - "$MYGIT/semiosis/prompts/prompts/deprecated/pick-up-line.prompt"
+  - "deprecated/pick-up-line.prompt"
 prompt-version: 2
 prompt: |+
     The following are witty openers for Tinder:
