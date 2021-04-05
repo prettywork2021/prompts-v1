@@ -64,7 +64,7 @@ examples:
   - Dependent Types
   - Impredicative Types
 preprocessors:
-  - -
+  -
   - "awk 1"
 # External provides an alternate script that performs the same function
 # external:
