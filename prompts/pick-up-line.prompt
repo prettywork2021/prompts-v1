@@ -1,64 +1,147 @@
-title: "generate pick up line"
-doc: "Generate pick up lines from a topic"
+title: "Very witty pick up lines for a topic"
+# future-titles: ""
+# aims: |+
+# - More abstractive rewording
+doc: "Given a topic, generate pick up lines, one at a time"
+# aims: |+
+# - Successful
+prompt-version: 2
 prompt: |+
     The following are witty openers for Tinder:
     ###
-    TOPIC: BOOKS
-    OPENERS:
-    I’m starting a book club, but my house is too small.
-    Which Harry Potter house do you belong to?
-    If you were asked to live your life as any book character, which one would you choose?
-    Tell me three things you have in common with your favorite book character.
-    Have you ever swam through an entire book?
-    What book had the biggest impact on your life?
+    TOPIC: CATS AND DRUGS
+    - Can I call you my catnip?
     ###
-    TOPIC: PSYCHOLOGY
-    OPENERS:
-    Have you ever had two days in a row where you didn’t text anyone?
-    Are you a certified psychologist?
-    Do you give pro-bono therapy?
-    What’s the difference between you and a psychologist?
-    Are you an expert on human behavior?
+    TOPIC: CATS
+    - If I said you had a purrfect body, would you hold it against me?
+    ###
+    TOPIC: CATS AND HAPPINESS
+    - Do you want to be my cat? You'll get fed, I'll pet you, you'll stay warm, and we'll both be happy.
+    ###
+    TOPIC: CATS AND FOOD
+    - You look like you'd taste good with a little milk.
+    ###
+    TOPIC: PIZZA
+    - You look like a slice of heaven.
+    ###
+    TOPIC: PIZZA INNUENDO
+    - If you were a pizza, you would be half cheese and half toppings.
+    ###
+    TOPIC: NACHOS INNUENDO
+    - Do you want to be my dipping sauce?
+    ###
+    TOPIC: FOOD ANALOGY
+    - You look like the salt to my pepper.
+    ###
+    TOPIC: SLEEP INNUENDO
+    - Are you a good pillow talker or a bad pillow talker?
+    ###
+    TOPIC: SLEEP ANALOGY
+    - You're like the sun in the morning.
+    ###
+    TOPIC: VIDEO GAMES
+    - Are people ever mean to you in games for being too cute?
+    ###
+    TOPIC: VIDEO GAMES
+    - You look like the type of girl I want to be a Pokemon trainer to.
+    ###
+    TOPIC: TRAVEL
+    - I want some of your culture.
+    ###
+    TOPIC: TRAVEL
+    - I want to explore every part of you.
+    ###
+    TOPIC: STARCRAFT
+    - I'm glad I scouted you.
+    ###
+    TOPIC: TRAVEL
+    - I think your exotic.
+    ###
+    TOPIC: TRAVEL
+    - I'm at the airport, looking at the plane schedule. Now all I need is you.
+    ###
+    TOPIC: TACOS AND INNUENDO
+    - You look like the type that would be good with a little hot sauce.
+    ###
+    TOPIC: ASTRONAUTS
+    - I think we should make space travel plans.
+    ###
+    TOPIC: ASTRONAUTS AND INNUENDO
+    - I'd like to be your space shuttle.
     ###
     TOPIC: COFFEE
-    You make my heart race like caffeine.
+    - Do you like coffee? Cuz I like you a latte.
     ###
     TOPIC: <1>
-    OPENERS:
-engine: "davinci"
+    -
+# # Additional transformation of prompt after the template
+# prompt-filter: "sed -z 's/\s\+$//'"
+# # Trailing whitespace is always removed
+# prompt-remove-trailing-whitespace: on
+# myrc will select the completion engine using my config.
+# This may be openi-complete or something else
+engine: "myrc"
+# if nothing is selected in myrc and openapi-complete is used
+# by default, then openai should select this engine.
+preferred-openai-engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
 # Use 0.3-0.8
-
-## 1.0 makes the daydream pickuplines ever. i love it
-# temperature: 1.0
-
-# 0.8 is normal
 temperature: 0.8
-max-tokens: 200
+max-tokens: 60
 top-p: 1.0
 # Not available yet: openai api completions.create --help
 frequency-penalty: 0.5
 # If I make presence-penalty 0 then it will get very terse
 presence-penalty: 0.0
-# This is generally expensive, but may be cheaper than sending the prompt every time
+best-of: 2
 stop-sequences:
+# - "\n"
+# - "\n\n"
 - "###"
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
+# Cache the function by default when running the prompt function
+cache: on
 vars:
 - "topic"
 examples:
-- "music"
+- "tectonic plates"
+# Completion is for generating a company-mode completion function
+# completion: on
+# # default values for pen -- evaled
+# # This is useful for completion commands.
+# pen-defaults:
+# - "(detect-language)"
+# - "(pen-preceding-text)"
+# These are elisp String->String functions and run from pen.el
+# It probably runs earlier than the preprocessors shell scripts
+pen-preprocessors:
+- "tr '[:lower:]' '[:upper:]'"
+# # A preprocessor filters the var at that position
+# the current implementation of preprocessors is kinda slow and will add ~100ml per variable
+# # This may be useful to distinguish a block of text, for example
+# preprocessors:
+# - "sed 's/^/- /"
+# - "cat"
 chomp-start: on
 chomp-end: off
+prefer-external: on
 external: ""
+# Enable running conversation
 conversation-mode: no
+# Replace selected text
 filter: no
 # Keep stitching together until reaching this limit
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
 stitch-max: 0
 needs-work: no
-# # Although the max-tokens may be 200, attempt to generate to 300.
-# generate-to: 300
+n-test-runs: 10
+# Prompt function aliases
+# aliases:
+# - "asktutor"
+# postprocessor: "sed 's/- //' | uniqnosort"
+# Run it n times and combine the output
+n-collate: 10
+postprocessor: "awk 1"
