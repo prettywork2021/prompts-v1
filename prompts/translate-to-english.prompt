@@ -8,15 +8,21 @@ prompt: |+
     describir tipos/estructuras de datos en
     los que sea necesario manejar un contexto
     de forma transparente al usuario.
-    English:
-    The Monad class is designed to describe data types / structures in which it is necessary to handle a context in a transparent way to the user.
+    Original language: Spanish.
+    English translation:
+    The Monad class is designed to describe
+    data types / structures in which it is
+    necessary to handle a context in a
+    transparent way to the user.
     ###
     Puis-je avoir une baguette s'il vous plaît?
-    French to English:
+    Original language: French
+    English translation:
     Could I have a baguette please?
     ###
     Der Begriff deutsch als Bezeichnung für das Volk der Deutschen, die deutsche Sprache bzw. Deutschland verfügt in den verschiedenen Sprachen der Welt über untereinander ähnliche wie auch äußerst unterschiedliche Wörter.
-    German to English:
+    Original language: German
+    English translation:
     The term German as a term for the people of the Germans, the German language or Germany has similar and extremely different words in the various languages of the world.
     ###
     <1>
