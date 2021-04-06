@@ -5,7 +5,8 @@ doc: "Given a topic, generate a list of subtopics"
 # text is concatenated before the postprocessor
 # is run.
 prompt: |+
-    List a number of subtopics or fields of study given a topic:
+    List a number of subtopics or fields of study
+    given a topic:
 
     ###
     7 subtopics of natural language processing / NLP:
@@ -40,7 +41,7 @@ prompt: |+
     - masked language modelling
     - text generation
     ###
-    20 subtopics or fields within <1>:
+    20 subtopics or fields within <1>, in no particular order:
     <:pp><2>-
 engine: "myrc"
 preferred-openai-engine: "davinci"
