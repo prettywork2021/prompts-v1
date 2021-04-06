@@ -59,8 +59,8 @@ This contains an explanation of the =.prompt= file format.
 #+BEGIN_SRC yaml -n :async :results verbatim code
   title: "${1:title}"
   # future-titles: ""
-  # aims: |+
-  # - More abstractive rewording
+  aims: |+
+  - More abstractive rewording
   doc: "Given ... ${1:title}"
   # aims: |+
   # - More abstractive rewording
@@ -71,11 +71,11 @@ This contains an explanation of the =.prompt= file format.
   # <1>, <2> etc. are where variables are substituted
   prompt: |+
       ${2:contents}
-      
+
       <1> are like <2> in that
   # # Additional transformation of prompt after the template
-  # prompt-filter: "sed -z 's/\\s\\+$//'"
-  # # Trailing whitespace is always removed
+  prompt-filter: "sed -z 's/\\s\\+$//'"
+  # Trailing whitespace is always removed
   # prompt-remove-trailing-whitespace: on
   # myrc will select the completion engine using my config.
   # This may be openi-complete or something else
@@ -98,9 +98,8 @@ This contains an explanation of the =.prompt= file format.
   # but the completer script will use the others.
   # Currently the API can only accept one stop-sequence, but that may change.
   stop-sequences:
-  # - "\\n"
-  # - "\\n\\n"
   - "###"
+  - "\n\n"
   inject-start-text: yes
   inject-restart-text: yes
   show-probabilities: off
@@ -113,12 +112,12 @@ This contains an explanation of the =.prompt= file format.
   - "boysenberries"
   - "strawberries"
   # Completion is for generating a company-mode completion function
-  # completion: on
+  completion: on
   # # default values for pen -- evaled
   # # This is useful for completion commands.
-  # pen-defaults:
-  # - "(detect-language)"
-  # - "(pen-preceding-text)"
+  pen-defaults:
+  - "(detect-language)"
+  - "(pen-preceding-text)"
   # These are elisp String->String functions and run from pen.el
   # It probably runs earlier than the preprocessors shell scripts
   pen-preprocessors:
@@ -126,13 +125,13 @@ This contains an explanation of the =.prompt= file format.
   # # A preprocessor filters the var at that position
   # the current implementation of preprocessors is kinda slow and will add ~100ml per variable
   # # This may be useful to distinguish a block of text, for example
-  # preprocessors:
-  # - "sed 's/^/- /"
-  # - "cat"
+  preprocessors:
+  - "sed 's/^/- /"
+  -
   chomp-start: on
   chomp-end: off
   prefer-external: on
-  external: ""
+  external: "generate-text-from-input.sh"
   # Enable running conversation
   conversation-mode: no
   # Replace selected text
@@ -143,11 +142,11 @@ This contains an explanation of the =.prompt= file format.
   needs-work: no
   n-test-runs: 5
   # Prompt function aliases
-  # aliases:
-  # - "asktutor"
-  # postprocessor: "sed 's/- //' | uniqnosort"
+  aliases:
+  - "asktutor"
+  postprocessor: "sed 's/- //' | uniqnosort"
   # # Run it n times and combine the output
-  # n-collate: 10
+  n-collate: 10
 #+END_SRC
 
 ** Tooling
