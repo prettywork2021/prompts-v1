@@ -1,4 +1,5 @@
 title: "subtopic generation"
+prompt-version: 2
 doc: "Given a topic, generate a list of subtopics"
 # <:pp> defines a point where the following
 # text is concatenated before the postprocessor
