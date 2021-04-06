@@ -1,5 +1,8 @@
 title: "subtopic generation"
 doc: "Given a topic, generate a list of subtopics"
+# <:pp> defines a point where the following
+# text is concatenated before the postprocessor
+# is run.
 prompt: |+
     List a number of subtopics or fields of study given a topic:
 
@@ -37,7 +40,7 @@ prompt: |+
     - text generation
     ###
     20 subtopics or fields within <1>:
-    <2>-
+    <:pp><2>-
 engine: "myrc"
 preferred-openai-engine: "davinci"
 temperature: 0.8
@@ -46,8 +49,11 @@ top-p: 1
 frequency-penalty: 0.8
 presence-penalty: 0.0
 best-of: 1
+# Only the first one will be used by the API,
+# but the completer script will use the others
 stop-sequences:
 - "###"
+- "\n\n"
 chomp-start: on
 chomp-end: off
 inject-start-text: yes
