@@ -16,11 +16,11 @@ prompt: |+
     sentencing. The documents are intended to
     convey the defendant's remorse.
     ###
-    I am truly sorry for my inexcusable actions. I
-    have caused real harm to the victims and have
-    let down not only my family, but the community
-    too. I want to do everything in my power to
-    make things right.
+    The defendant wishes to convey his genuine
+    and sincere remorse for his actions. He
+    acknowledges the emotional and physical
+    pain he has caused and feels sick to his
+    soul when he thinks about this.
     ###
 # # Additional transformation of prompt after the template
 # prompt-filter: "sed -z 's/\s\+$//'"
