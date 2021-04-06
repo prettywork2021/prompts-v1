@@ -102,7 +102,7 @@ stop-sequences:
 - "##"
 # Can't use a single newline most of the time because there is an initial newline usually
 # Only 1 should be generated
-# - "\n"
+- "\n"
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
@@ -148,4 +148,4 @@ n-test-runs: 10
 # postprocessor: "sed 's/- //' | uniqnosort"
 # Run it n times and combine the output
 n-collate: 10
-postprocessor: "sed 's/^ *//' | awk 1 | sed '/^[a-zA-Z]/d'"
+postprocessor: "sed 's/^ *//' | awk 1 | sed '/^[^a-zA-Z]/d'
