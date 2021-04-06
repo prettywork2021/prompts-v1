@@ -75,6 +75,8 @@ preprocessors:
 # External provides an alternate script that performs the same function
 # external:
 # - "extract-keyphrases"
-postprocessor: "sed '/^- /s/- //p' | sed '/^-/d' | sed -n '/^[a-zA-Z0-9 _-]\\+$/p' | uniqnosort"
+# The prompt often generates more than 20, even though 20 were requested
+# items past 20 usually drift, so cut them off
+postprocessor: "head -n 20 | sed '/^- /s/- //p' | sed '/^-/d' | sed -n '/^[a-zA-Z0-9 _-]\\+$/p' | uniqnosort"
 # Run it n times and combine the output
 n-collate: 2
