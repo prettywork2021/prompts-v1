@@ -131,7 +131,11 @@ This contains an explanation of the =.prompt= file format.
   chomp-start: on
   chomp-end: off
   prefer-external: on
+  # This is an optional external command which may be used to perform the same task as the API.
+  # This can be used to train the prompt.
   external: "generate-text-from-input.sh"
+  # This script can be used to validate the output.
+  validation-script:
   # Enable running conversation
   conversation-mode: no
   # Replace selected text
