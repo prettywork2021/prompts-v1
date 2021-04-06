@@ -42,7 +42,8 @@ frequency-penalty: 0.5
 presence-penalty: 0.0
 best-of: 1
 # Only the first one will be used by the API,
-# but the completer wrapper script will use the others
+# but the completer script will use the others.
+# Currently the API can only accept one stop-sequence, but that may change.
 stop-sequences:
 # - "\\n"
 # - "\\n\\n"
