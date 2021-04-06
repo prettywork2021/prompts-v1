@@ -100,7 +100,7 @@ stop-sequences:
 # 2 hashes is more reliable as a stop sequence because
 # sometimes the generation morphs from ### to ##
 - "##"
-# Can't use a single newline most of the time because there is an initial newline
+# Can't use a single newline most of the time because there is an initial newline usually
 # Only 1 should be generated
 # - "\n"
 inject-start-text: yes
