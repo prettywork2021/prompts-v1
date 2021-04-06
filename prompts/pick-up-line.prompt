@@ -149,3 +149,4 @@ n-test-runs: 10
 # Run it n times and combine the output
 n-collate: 10
 postprocessor: "sed 's/^ *//' | awk 1 | sed '/^[^a-zA-Z]/d'"
+collation-separator: ""
