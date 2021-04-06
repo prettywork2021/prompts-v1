@@ -12,10 +12,10 @@ prompt-version: 1
 # is run.
 # <1>, <2> etc. are where variables are substituted
 prompt: |+
-    The following documents to be submitted to
-    the court prior to a defendants'
+    The following documents are to be submitted to
+    the court prior to the defendants'
     sentencing. The documents are intended to
-    convey the defendant's remorse.
+    convey the defendants' remorse.
     ###
     I am truly sorry for my inexcusable actions. I
     have caused real harm to the victims and have
@@ -52,7 +52,7 @@ stop-sequences:
 # - "\n\n"
 # 2 hashes is more reliable as a stop sequence because
 # sometimes the generation morphs from ### to ##
-- "##"
+- "#"
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off

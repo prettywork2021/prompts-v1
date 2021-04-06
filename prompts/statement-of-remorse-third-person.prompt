@@ -13,9 +13,9 @@ prompt-version: 1
 # <1>, <2> etc. are where variables are substituted
 prompt: |+
     The following documents to be submitted to
-    the court prior to a defendants'
+    the court prior to the defendants'
     sentencing. The documents are intended to
-    convey the defendant's remorse.
+    convey the defendants' remorse.
     ###
     The defendant wishes to convey his genuine
     and sincere remorse for his actions. He
