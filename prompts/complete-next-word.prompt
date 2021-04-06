@@ -24,7 +24,7 @@ show-probabilities: off
 vars:
 - "text"
 examples:
-- "Recycling is good for the world, no, you could not be more wrong"
+- "Recycling is good for the"
 # Completion is for generating a company-mode completion function
 completion: on
 # default values for pen -- evaled
