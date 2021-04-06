@@ -3,11 +3,9 @@ title: "Very witty pick up lines for a topic"
 # aims: |+
 # - More abstractive rewording
 doc: "Given a topic, generate pick up lines, one at a time"
-# aims: |+
-# - Successful
 past-versions:
 - "deprecated/pick-up-line.prompt"
-prompt-version: 3
+prompt-version: 4
 prompt: |+
     The following are witty openers for Tinder:
     ###
@@ -98,9 +96,12 @@ frequency-penalty: 0.5
 presence-penalty: 0.0
 best-of: 2
 stop-sequences:
-# - "\n"
 # - "\n\n"
-- "###"
+# 2 hashes is more reliable as a stop sequence because
+# sometimes the generation morphs from ### to ##
+- "##"
+# Only 1 should be generated
+- "\n"
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
@@ -146,4 +147,4 @@ n-test-runs: 10
 # postprocessor: "sed 's/- //' | uniqnosort"
 # Run it n times and combine the output
 n-collate: 10
-postprocessor: "sed 's/^ *//' | awk 1"
+postprocessor: "sed 's/^ *//' | awk 1 | sed '/^[a-zA-Z]/d'"
