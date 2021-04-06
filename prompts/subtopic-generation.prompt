@@ -76,7 +76,7 @@ preprocessors:
 # external:
 # - "extract-keyphrases"
 # The prompt often generates more than 20, even though 20 were requested
-# items past 20 usually drift, so cut them off
+# items past 20 usually drift, so cut them off?
 # head -n 20 | 
 postprocessor: "sed '/^- /s/- //p' | sed '/^-/d' | sed -n '/^[a-zA-Z0-9 _-]\\+$/p' | uniqnosort"
 # Run it n times and combine the output
