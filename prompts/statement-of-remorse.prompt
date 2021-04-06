@@ -6,7 +6,7 @@ title: "Statement of remorse"
 doc: ""
 # aims: |+
 # - More abstractive rewording
-prompt-version: 1
+prompt-version: 2
 # <:pp> defines a point where the following
 # text is concatenated before the postprocessor
 # is run.
