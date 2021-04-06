@@ -107,4 +107,4 @@ n-test-runs: 5
 # n-collate: 10
 # This for combining prompts:
 # It might be, for example, summarize, or uniqnosort
-collation-postprocessor: "uniqnosort"
+# collation-postprocessor: "uniqnosort"
