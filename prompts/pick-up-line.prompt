@@ -6,7 +6,7 @@ doc: "Given a topic, generate pick up lines, one at a time"
 # aims: |+
 # - Successful
 past-versions:
-  - "deprecated/pick-up-line.prompt"
+- "deprecated/pick-up-line.prompt"
 prompt-version: 3
 prompt: |+
     The following are witty openers for Tinder:
