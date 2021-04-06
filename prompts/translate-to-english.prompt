@@ -26,7 +26,7 @@ prompt: |+
     The term German as a term for the people of the Germans, the German language or Germany has similar and extremely different words in the various languages of the world.
     ###
     <1>
-    Original language:
+    <:pp>Original language:
 engine: "davinci"
 temperature: 0.5
 max-tokens: 200
