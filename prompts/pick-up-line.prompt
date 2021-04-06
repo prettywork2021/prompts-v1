@@ -149,5 +149,6 @@ n-test-runs: 10
 # Run it n times and combine the output
 n-collate: 10
 postprocessor: "sed 's/^ *//' | awk 1 | sed '/^[^a-zA-Z]/d'"
-# I may way to separate each collation
+# I may want to separate each collation
+# This may also be used by pen.el if the prompt is called multiple times from there
 collation-separator: ""
