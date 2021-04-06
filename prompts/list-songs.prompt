@@ -69,3 +69,6 @@ needs-work: no
 # aliases:
 # - "asktutor"
 postprocessor: "sed '/^- /s/- //p' | sed '/^-/d' | sed -n '/^[a-zA-Z0-9 _-]\\+$/p' | uniqnosort"
+# This for combining prompts:
+# It might be, for example, summarize, or uniqnosort
+collation-postprocessor: "uniqnosort"
