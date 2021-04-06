@@ -134,7 +134,10 @@ This contains an explanation of the =.prompt= file format.
   # This is an optional external command which may be used to perform the same task as the API.
   # This can be used to train the prompt.
   external: "generate-text-from-input.sh"
+  # This script returns a 0-1 decimal value representing the quality of the generated output.
+  quality-script:
   # This script can be used to validate the output.
+  # If the output is accurate, the validation script returns exit code 1
   validation-script:
   # Enable running conversation
   conversation-mode: no
