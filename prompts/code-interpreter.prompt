@@ -21,6 +21,7 @@ prompt: |+
     Bash:
     Str="Learn Linux from LinuxHint"
     subStr=${Str:6:5}
+    Output: Linux
     
     <1> are like <2> in that
 problems:
