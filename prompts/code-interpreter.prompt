@@ -98,7 +98,7 @@ quality-script: "levenshtein -s"
 # This script can be used to validate the output.
 # If the output is accurate, the validation script returns exit code 1.
 # The input is 2 arguments each containing output
-validation-script: "my-validator-for-this-prompt.sh"
+validation-script: ""
 # Enable running conversation
 conversation-mode: no
 # Replace selected text
