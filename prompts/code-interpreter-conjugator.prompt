@@ -1,21 +1,11 @@
 title: "Code interpreter conjugator"
-# future-titles: ""
-# aims: |+
-# - More abstractive rewording
+future-titles:
+aims:
 doc: "Given some lines of code, coerce them into prompt format then continue"
-# aims: |+
-# - More abstractive rewording
 prompt-version: 1
-# <:pp> defines a point where the following
-# text is concatenated before the postprocessor
-# is run.
-# <1>, <2> etc. are where variables are substituted
 prompt: |+
     <1>
     Output:
-# problems:
-# - "Struggles with the latter columns."
-# # Additional transformation of prompt after the template
 # prompt-filter: "sed -z 's/\s\+$//'"
 # # Trailing whitespace is always removed
 # prompt-remove-trailing-whitespace: on
@@ -92,7 +82,11 @@ quality-script: "my-quality-checker-for-this-prompt.sh"
 # The input is 2 arguments each containing output
 validation-script: "my-validator-for-this-prompt.sh"
 # Enable running conversation
-conversation-mode: no
+conversation-mode: yes
+# This is the name of an external database-driven pretext generator.
+# It would typically summarize and fact extract from history.
+# It then passes the pretext to the new prompt.
+conversation-pretext-generator: "code-interpreter"
 # Replace selected text
 filter: no
 # Keep stitching together until reaching this limit

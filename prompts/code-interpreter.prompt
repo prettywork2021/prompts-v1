@@ -3,16 +3,8 @@ future-titles: "Code interpreter kickstarter"
 # It may be combined with a prompt more adept at continuing conversation
 # Or a generic GPT-3 completion, actually.
 # I need to format the input variables correctly so it remains an interperter
-# aims: |+
-# - More abstractive rewording
 doc: "Given a line of code, infer the result of running that code"
-# aims: |+
-# - More abstractive rewording
 prompt-version: 1
-# <:pp> defines a point where the following
-# text is concatenated before the postprocessor
-# is run.
-# <1>, <2> etc. are where variables are substituted
 prompt: |+
     Code examples:
 

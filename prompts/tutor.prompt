@@ -45,6 +45,10 @@ chomp-start: on
 chomp-end: off
 external: ""
 conversation-mode: yes
+# This is the name of an external database-driven pretext generator.
+# It would typically summarize and fact extract from history.
+# It then passes the pretext to the new prompt.
+conversation-pretext-generator: "human-conversation"
 filter: no
 # Keep stitching together until reaching this limit
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
