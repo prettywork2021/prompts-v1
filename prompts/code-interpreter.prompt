@@ -52,6 +52,7 @@ stop-sequences:
 # 2 hashes is more reliable as a stop sequence because
 # sometimes the generation morphs from ### to ##
 - "##"
+- "\n\n"
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
