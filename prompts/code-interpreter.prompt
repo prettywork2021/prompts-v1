@@ -13,16 +13,18 @@ prompt-version: 1
 prompt: |+
     Code examples:
 
-    Language: Python
+    # Language: Python
     print(random.randint(0,9))
-    Output: 5
+    # Output: 5
     ###
-    Language: Bash
+    # Language: Bash
     Str="Learn Linux from LinuxHint"
     subStr=${Str:6:5}
-    Output: Linux
+    # Output: Linux
     ###
-    Input
+    # Language:
+    main :: IO ()
+    main = putStrLn "Hello, World!"
     
     <1> are like <2> in that
 problems:
