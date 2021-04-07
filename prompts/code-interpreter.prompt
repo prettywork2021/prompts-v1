@@ -14,14 +14,15 @@ prompt: |+
     Code examples:
 
     Language: Python
-    Input:
     print(random.randint(0,9))
     Output: 5
     ###
-    Bash:
+    Language: Bash
     Str="Learn Linux from LinuxHint"
     subStr=${Str:6:5}
     Output: Linux
+    ###
+    Input
     
     <1> are like <2> in that
 problems:
