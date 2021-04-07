@@ -23,11 +23,9 @@ prompt: |+
     subStr=${Str:6:5}
     # Output: Linux
     ###
-    # Language:
-    main :: IO ()
-    main = putStrLn "Hello, World!"
-    
-    <1> are like <2> in that
+    # Language: <1>
+    <2>
+    # Output:
 problems:
 - "Struggles with the latter columns."
 # # Additional transformation of prompt after the template
