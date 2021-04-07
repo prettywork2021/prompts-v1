@@ -26,8 +26,7 @@ prompt: |+
   ###
   # At 09:06 on Sunday in July.
   6 9 * 7 0
-  # At 09:06 on Sunday in July.
-  ###
+    ###
   # At 06:47 on Sunday.
   47 6 * * 7
   # At 06:47 on Sunday.
@@ -36,8 +35,7 @@ prompt: |+
   52 6 1 * *
   # At 06:52 on day-of-month 1.
   ###
-  # At 10:05 on day-of-month 31 and on Sunday in May.
-  5 10 31 5 0
+    5 10 31 5 0
   # At 10:05 on day-of-month 31 and on Sunday in May.
   ###
   <1>
