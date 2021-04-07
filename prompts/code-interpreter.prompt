@@ -78,8 +78,8 @@ examples:
 # - "(pen-preceding-text)"
 # These are elisp String->String functions and run from pen.el
 # It probably runs earlier than the preprocessors shell scripts
-pen-preprocessors:
-- "pen-pf-correct-grammar"
+# pen-preprocessors:
+# - "pen-pf-correct-grammar"
 # # A preprocessor filters the var at that position
 # the current implementation of preprocessors is kinda slow and will add ~100ml per variable
 # # This may be useful to distinguish a block of text, for example
