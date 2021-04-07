@@ -28,8 +28,8 @@ prompt: |+
     # Language: <1>
     <2>
     # Output:
-problems:
-- "Struggles with the latter columns."
+# problems:
+# - "Struggles with the latter columns."
 # # Additional transformation of prompt after the template
 # prompt-filter: "sed -z 's/\s\+$//'"
 # # Trailing whitespace is always removed

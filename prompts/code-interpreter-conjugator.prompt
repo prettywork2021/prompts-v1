@@ -11,11 +11,10 @@ prompt-version: 1
 # is run.
 # <1>, <2> etc. are where variables are substituted
 prompt: |+
-    contents
-    
-    <1> are like <2> in that
-problems:
-- "Struggles with the latter columns."
+    <1>
+    Output:
+# problems:
+# - "Struggles with the latter columns."
 # # Additional transformation of prompt after the template
 # prompt-filter: "sed -z 's/\s\+$//'"
 # # Trailing whitespace is always removed
