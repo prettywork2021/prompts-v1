@@ -52,7 +52,7 @@ examples:
 - "30 7 * * *"
 preprocessors:
 - "sed 's/\\s\\+/ /g'"
-external: "interpret-crontab"
+external: "unstdinify interpret-crontab"
 # This compares the output of the external script to the output of the LM
 similarity-test:
 filter: no
