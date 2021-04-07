@@ -64,7 +64,7 @@ show-probabilities: off
 # Cache the function by default when running the prompt function
 cache: on
 vars:
-- "former"
+- "language"
 - "latter"
 examples:
 - "boysenberries"
