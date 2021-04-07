@@ -8,29 +8,24 @@ prompt: |+
   # month (1 - 12) OR jan,feb,mar,apr ...                             
   # day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
   ###
-  # At 06:47 on Saturday.
   47 6 * * 6
+  # At 06:47 on Saturday.
   ###
-  # At 06:20 on Sunday.
   20 6 * * 7
   # At 06:20 on Sunday.
   ###
-  # At minute 17.
   17 * * * *
   # At minute 17.
   ###
-  # At 06:25.
   25 6 * * *
   # At 06:25.
   ###
-  # At 09:06 on Sunday in July.
   6 9 * 7 0
+  # At 09:06 on Sunday in July.
   ###
-  # At 06:47 on Sunday.
   47 6 * * 7
   # At 06:47 on Sunday.
   ###
-  # At 06:52 on day-of-month 1.
   52 6 1 * *
   # At 06:52 on day-of-month 1.
   ###
