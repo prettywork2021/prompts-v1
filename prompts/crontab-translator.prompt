@@ -53,6 +53,7 @@ examples:
 preprocessors:
 - "sed 's/\\s\\+/ /g'"
 # The external command must take arguments, not stdin
+# So that all variables may be passed into it.
 external: "unstdinify interpret-crontab"
 # This compares the output of the external script to the output of the LM
 similarity-test:
