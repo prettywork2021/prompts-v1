@@ -1,7 +1,7 @@
 title: "crontab translator"
 prompt-version: 3
 prompt: |+
-  # Crontab.
+  /etc/crontab: system-wide crontab
 
   ###
   47 6 * * 6
