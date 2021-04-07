@@ -47,8 +47,6 @@ best-of: 1
 # but the completer script will use the others.
 # Currently the API can only accept one stop-sequence, but that may change.
 stop-sequences:
-# - "\n"
-# - "\n\n"
 # 2 hashes is more reliable as a stop sequence because
 # sometimes the generation morphs from ### to ##
 - "##"
