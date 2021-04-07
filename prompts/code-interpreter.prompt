@@ -1,5 +1,6 @@
 title: "Code interpreter"
-# future-titles: ""
+future-titles: "Code interpreter kickstarter"
+# It may be combined with a prompt more adept at continuing conversation
 # aims: |+
 # - More abstractive rewording
 doc: "Given a line of code, infer the result of running that code"
