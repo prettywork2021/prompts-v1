@@ -39,7 +39,7 @@ show-probabilities: off
 vars:
 - "tab"
 examples:
-- "30 7    * * *"
+- "30 7 * * *"
 preprocessors:
 - "sed 's/\\s*/ /g'"
 external: "interpret-crontab"
