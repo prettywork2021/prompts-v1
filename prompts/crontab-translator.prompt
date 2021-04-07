@@ -10,7 +10,6 @@ prompt: |+
   ###
   # At 06:47 on Saturday.
   47 6 * * 6
-  # At 06:47 on Saturday.
   ###
   # At 06:20 on Sunday.
   20 6 * * 7
