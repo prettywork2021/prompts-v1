@@ -1,5 +1,5 @@
 title: "crontab translator"
-prompt-version: 1
+prompt-version: 2
 prompt: |+
   crontab
 
@@ -8,6 +8,9 @@ prompt: |+
   ###
   25 6	* * *
   At 06:25.
+  ###
+  6 9 * 7 0
+  At 09:06 on Sunday in July.
   ###
   47 6	* * 7
   At 06:47 on Sunday.
