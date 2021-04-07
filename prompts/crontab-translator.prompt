@@ -28,7 +28,7 @@ prompt: |+
   # At 10:05 on day-of-month 31 and on Sunday in May.
   <1>
 engine: "davinci"
-temperature: 0.3
+temperature: 0.5
 max-tokens: 60
 top-p: 1.0
 frequency-penalty: 0.5
