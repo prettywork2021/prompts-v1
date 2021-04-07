@@ -62,8 +62,8 @@ vars:
 - "language"
 - "code"
 examples:
-- "boysenberries"
-- "strawberries"
+- "haskell"
+- "\"abc\" ++ \"123\""
 # Completion is for generating a company-mode completion function
 # completion: on
 # # default values for pen -- evaled
