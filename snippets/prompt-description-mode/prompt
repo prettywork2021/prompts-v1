@@ -20,6 +20,8 @@ prompt: |+
     ${2:contents}
     
     <1> are like <2> in that
+problems:
+- "Struggles with the latter columns."
 # # Additional transformation of prompt after the template
 # prompt-filter: "sed -z 's/\\s\\+$//'"
 # # Trailing whitespace is always removed
