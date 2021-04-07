@@ -1,10 +1,8 @@
 title: "crontab translator"
 prompt-version: 3
 prompt: |+
-  The following is a list of crontab entries
-  along with a human readable description:
+  # Crontab.
   
-  Minute,Hour,Day of Month,Month,Day of Week
   ###
   47 6 * * 7
   # At 06:47 on Sunday.
