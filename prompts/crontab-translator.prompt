@@ -1,5 +1,5 @@
 title: "crontab translator"
-prompt-version: 4
+prompt-version: 5
 prompt: |+
   /etc/crontab: system-wide crontab
 
