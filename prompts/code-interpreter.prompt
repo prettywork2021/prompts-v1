@@ -2,7 +2,7 @@ title: "Code interpreter"
 # future-titles: ""
 # aims: |+
 # - More abstractive rewording
-doc: "Given ... title"
+doc: "Given a line of code, infer the result of running that code"
 # aims: |+
 # - More abstractive rewording
 prompt-version: 1
@@ -11,7 +11,12 @@ prompt-version: 1
 # is run.
 # <1>, <2> etc. are where variables are substituted
 prompt: |+
-    contents
+    Code examples:
+
+    Language: Python
+    Code: print(random.randint(0,9))
+    Output: 5
+    ###
     
     <1> are like <2> in that
 problems:
