@@ -1,8 +1,8 @@
 title: "crontab translator"
 prompt-version: 3
 prompt: |+
-  crontab
-
+  The following is a list of crontab entries
+  along with a human readable description:
   ###
   47 6 * * 7
   At 06:47 on Sunday.
