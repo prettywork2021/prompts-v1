@@ -61,7 +61,7 @@ vars:
 - "code"
 examples:
 - "haskell"
-- "\"abc\" ++ \"123\""
+- "\"Hello\" ++ \" \" ++ \"World\""
 # Completion is for generating a company-mode completion function
 # completion: on
 # # default values for pen -- evaled
