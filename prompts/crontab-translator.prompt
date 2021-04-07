@@ -45,7 +45,7 @@ vars:
 examples:
 - "30 7 * * *"
 preprocessors:
-- "sed 's/\\s*/ /g'"
+- "sed 's/\\t*/ /g'"
 external: "interpret-crontab"
 filter: no
 # Keep stitching together until reaching this limit
