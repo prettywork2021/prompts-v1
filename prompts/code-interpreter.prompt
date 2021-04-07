@@ -65,7 +65,7 @@ show-probabilities: off
 cache: on
 vars:
 - "language"
-- "latter"
+- "code"
 examples:
 - "boysenberries"
 - "strawberries"
