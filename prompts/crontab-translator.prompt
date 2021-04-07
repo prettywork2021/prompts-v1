@@ -3,19 +3,19 @@ prompt-version: 2
 prompt: |+
   crontab
 
-  17 *	* * *
+  17 * * * *
   At minute 17.
   ###
-  25 6	* * *
+  25 6 * * *
   At 06:25.
   ###
   6 9 * 7 0
   At 09:06 on Sunday in July.
   ###
-  47 6	* * 7
+  47 6 * * 7
   At 06:47 on Sunday.
   ###
-  52 6	1 * *
+  52 6 1 * *
   At 06:52 on day-of-month 1.
   ###
   5 10 31 5 0
