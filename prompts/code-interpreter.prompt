@@ -84,6 +84,7 @@ prefer-external: on
 # This can be used to train the prompt.
 # The external command must take arguments, not stdin
 # So that all variables may be passed into it.
+# iol haskell "[ x | x <- [50..100], x \`mod\` 7 == 3]"
 external: "iol"
 # This compares the output of the external script to the output of the LM
 # $SCRIPTS/string-equal
