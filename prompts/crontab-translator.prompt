@@ -11,6 +11,9 @@ prompt: |+
   47 6 * * 7
   # At 06:47 on Sunday.
   ###
+  20 6 * * 7
+  # At 06:20 on Sunday.
+  ###
   17 * * * *
   At minute 17.
   ###
