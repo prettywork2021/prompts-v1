@@ -5,25 +5,25 @@ prompt: |+
   along with a human readable description:
   ###
   47 6 * * 7
-  At 06:47 on Sunday.
+  # At 06:47 on Sunday.
   ###
   17 * * * *
   At minute 17.
   ###
   25 6 * * *
-  At 06:25.
+  # At 06:25.
   ###
   6 9 * 7 0
-  At 09:06 on Sunday in July.
+  # At 09:06 on Sunday in July.
   ###
   47 6 * * 7
-  At 06:47 on Sunday.
+  # At 06:47 on Sunday.
   ###
   52 6 1 * *
-  At 06:52 on day-of-month 1.
+  # At 06:52 on day-of-month 1.
   ###
   5 10 31 5 0
-  At 10:05 on day-of-month 31 and on Sunday in May.
+  # At 10:05 on day-of-month 31 and on Sunday in May.
   <1>
 engine: "davinci"
 temperature: 0.3
