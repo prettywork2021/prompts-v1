@@ -14,7 +14,7 @@ prompt: |+
     Code examples:
 
     Language: Python
-    Code: print(random.randint(0,9))
+    Input: print(random.randint(0,9))
     Output: 5
     ###
     
