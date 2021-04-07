@@ -53,6 +53,8 @@ examples:
 preprocessors:
 - "sed 's/\\s\\+/ /g'"
 external: "interpret-crontab"
+# This compares the output of the external script to the output of the LM
+similarity-test:
 filter: no
 # Keep stitching together until reaching this limit
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
