@@ -4,7 +4,7 @@ future-titles: "Code interpreter kickstarter"
 # Or a generic GPT-3 completion, actually.
 # I need to format the input variables correctly so it remains an interperter
 doc: "Given a line of code, infer the result of running that code"
-prompt-version: 2
+prompt-version: 3
 prompt: |+
     Code examples:
 
@@ -109,6 +109,8 @@ n-test-runs: 5
 # Prompt function aliases
 # aliases:
 # - "asktutor"
+# Take the first line only
+postprocessor: "sed 1q"
 # postprocessor: "sed 's/- //' | uniqnosort"
 # # Run it n times and combine the output
 # n-collate: 10
