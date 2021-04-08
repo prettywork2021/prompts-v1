@@ -4,7 +4,7 @@ future-titles: "Code interpreter kickstarter"
 # Or a generic GPT-3 completion, actually.
 # I need to format the input variables correctly so it remains an interperter
 doc: "Given a line of code, infer the result of running that code"
-prompt-version: 1
+prompt-version: 2
 prompt: |+
     Code examples:
 
