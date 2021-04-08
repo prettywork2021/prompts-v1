@@ -20,21 +20,19 @@ prompt: |+
     - (map #(apply str (reverse %)) (re-seq #"[^ ]+" "hi there"))
     ###
     One-liners in Ruby:
-    Task: extract values of a map to a list
-    3 examples:
+    3 examples of how to extract values of a map to a list:
     - hash.values
     - hash.map { |key, value| value }
     - hash.collect { |k, v| v }
     ###
     One-liners in haskell:
-    Task: Multiple Each Item in a List by 2
-    2 examples:
+    2 examples of how to multiply each item in a list by 2:
     - map (*2) [1..10]
     - map (*2) [1..5]
     ###
     One-liners in <1>:
-    Task: <2>
-    10 examples:
+    10 examples of how to <2>:
+    <:pp>-
 engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
