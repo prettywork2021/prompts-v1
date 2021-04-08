@@ -11,7 +11,7 @@ doc: "Get a one liner from natural langauge"
 prompt: |+
     One liners in various languages.
 
-    One-liners in Clojure:
+    Language: Clojure
     Task: map string/split
     4 examples:
     - (map first (split-at 3 "Hello World"))
@@ -19,19 +19,22 @@ prompt: |+
     - (map #(str % #" ") ["Hello" "World"])
     - (map #(apply str (reverse %)) (re-seq #"[^ ]+" "hi there"))
     ###
-    One-liners in Ruby:
-    3 examples of how to extract values of a map to a list:
+    Language: Ruby
+    Task: extract values of a map to a list
+    3 examples of 
     - hash.values
     - hash.map { |key, value| value }
     - hash.collect { |k, v| v }
     ###
-    One-liners in haskell:
-    2 examples of how to multiply each item in a list by 2:
+    Language: haskell
+    Task: multiply each item in a list by 2
+    2 examples:
     - map (*2) [1..10]
     - map (*2) [1..5]
     ###
-    One-liners in <1>:
-    10 examples of how to <2>:
+    Language <1>
+    Task: <2>
+    10 examples:
     <:pp>-
 engine: "davinci"
 # 0.0 = /r/hadastroke
