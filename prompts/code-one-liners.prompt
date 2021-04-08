@@ -6,46 +6,35 @@ future-titles:
 # Any language
 - "Get snippet"
 next-version: "get-code-snippet.prompt"
-doc: "Get a bash one liner from natural langauge"
+prompt-version: 2
+doc: "Get a one liner from natural langauge"
 prompt: |+
-    Language: clojure
+    One liners in various languages.
+
+    A list of one-liners in Clojure:
     Task: map string/split
-    3 examples:
+    4 examples:
+    - (map first (split-at 3 "Hello World"))
     - (map #(str/split % #"\s+") ["a-b-c" "1-2-3"])
     - (map #(str % #" ") ["Hello" "World"])
     - (map #(apply str (reverse %)) (re-seq #"[^ ]+" "hi there"))
     ###
-    Language: ruby
-    Task: extract values of a hash map to a list
+    A list of one-liners in Ruby:
+    Task: extract values of a map to a list
     3 examples:
-    - s = "abcdefg" s.reverse
-    - gets.chomp.reverse
-    - [:a, :b, :c].join('').reverse
+    - hash.values
+    - hash.map { |key, value| value }
+    - hash.collect { |k, v| v }
     ###
-    Language: haskell
+    A list of one-liners in haskell:
     Task: Multiple Each Item in a List by 2
     2 examples:
     - map (*2) [1..10]
     - map (*2) [1..5]
     ###
-    Language: bash
-    Task: Recursively remove all "node_modules" folders
-    Code:
-    find . -name "node_modules" -exec rm -rf '{}' +
-    ###
-    Language: Haskell
-    Task: Apply a function to both bits of a tuple:
-    Code:
-    both :: (a -> b) -> (a, a) -> (b, b)
-    both = join (***)
-    ###
-    Language: Python
-    Task: Palindrome Python One-Liner
-    Code: phrase.find(phrase[::-1])
-    ###
-    Language: <1>    
+    A list of one-liners in <1>:
     Task: <2>
-    Code:
+    10 examples:
 engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
@@ -80,3 +69,4 @@ filter: no
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
 stitch-max: 0
 needs-work: no
+postprocessor: "sed '/^- /s/- //p' | sed '/^-/d' | uniqnosort"
