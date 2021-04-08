@@ -40,7 +40,7 @@ engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
 # Use 0.3-0.8
-temperature: 0.8
+temperature: 0.6
 max-tokens: 60
 top-p: 1.0
 # Not available yet: openai api completions.create --help
